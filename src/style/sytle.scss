@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+  font-family: 'Quicksand', sans-serif;
+  font-style: normal;
+}
+
+img{
+  width: 100%;
+}
+
+.container{
+  max-width: 1220px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+@mixin text($fw, $fs, $lh, $col) {
+  font-weight: $fw;
+  font-size: $fs;
+  line-height: $lh;
+  color: $col;
+}
+
+@import 'header';
+@import 'slider';
+@import 'allProducts';
+@import 'aside';
+@import 'basket';
+@import 'video';
+@import 'products';
+@import 'delivery';
+@import 'iphone';
+@import 'accessories';
+@import 'footer';

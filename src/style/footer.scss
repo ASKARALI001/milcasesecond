@@ -1,0 +1,38 @@
+.footer{
+  padding: 60px 0 20px;
+  &__row{
+    display: flex;
+    justify-content: space-between;
+  }
+  &__logo{
+    height: 60px;
+    width: 160px;
+  }
+  &__nav{
+    display: flex;
+    column-gap: 40px;
+    margin-bottom: 30px;
+  }
+  &__item{
+    @include text(400, 16px, 150%, #767ab9);
+    cursor: pointer;
+    transition: .2s;
+    &:hover{
+      color: darkslateblue;
+      transition: .2s;
+
+    }
+  }
+  &__call{
+    border-bottom: 1px solid #767ab9;
+  }
+  &__num{
+    @include text(600, 34px, 150%, #767ab9);
+  }
+  &__desc{
+    @include text(400, 16px, 150%, #767ab9);
+  }
+  &__subtitle{
+    @include text(600, 20px ,150%, #767ab9)
+  }
+}

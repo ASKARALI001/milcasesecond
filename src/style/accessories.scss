@@ -1,0 +1,15 @@
+.accessories{
+ 
+  &__info{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    &-desc{
+      @include text(400, 16px, 150%, #767ab9)
+    }
+    &-icons{
+      font-size: 20px;
+      margin-right: 8px;
+    }
+  }
+}

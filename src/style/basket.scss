@@ -1,0 +1,57 @@
+.basket{
+  padding: 40px 0;
+  &__card{
+    display: flex;
+    align-items: center;
+    column-gap: 70px;
+    &-info{
+      display: flex;
+      align-items: center;
+      column-gap: 40px;
+
+    }
+    &-icon{
+      font-size: 20px;
+      color: #767ab9;
+      cursor: pointer;
+    }
+    &-icons{
+      font-size: 30px;
+      color: #767ab9;
+      cursor: pointer;
+    }
+
+
+    &-image{
+      width: 10%;
+    }
+    &-desc{
+      @include text(400, 16px, 150%, #767ab9)
+    }
+    &-quantity{
+      display: flex;
+      align-items: center;
+      column-gap: 10px;
+    }
+    &-quanti{
+      padding: 6px 10px;
+      border-radius: 50%;
+      border: 1px solid #767ab9;
+    }
+    &-text{
+      display: flex;
+      align-items: center;
+      column-gap: 20px;
+    }
+    &-price{
+      @include text(400, 18px, 150%, #767ab9);
+
+    }
+
+
+
+
+
+
+  }
+}

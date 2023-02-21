@@ -1,0 +1,148 @@
+.header {
+  padding-top: 10px;
+
+  &__column {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__left {
+    &-desc {
+      @include text(400, 14px, 150%, darkslateblue);
+    }
+
+    &-num {
+      @include text(400, 14px, 150%, #767ab9);
+      margin: 10px 0;
+    }
+  }
+
+  &__logo {
+    width: 200px;
+    cursor: pointer;
+    transition: .2s;
+
+    &:hover {
+      transition: .2s;
+      transform: scale(1.04);
+
+    }
+  }
+
+  &__right {
+    &-list {
+      display: flex;
+      column-gap: 20px;
+    }
+
+    &-item {
+      @include text(400, 12px, 150%, #767ab9);
+      cursor: pointer;
+      padding: 2px 5px;
+      border: none;
+      border-radius: 8px;
+      transition: .2s;
+
+      &:hover {
+        background: #767ab9;
+        padding: 2px 5px;
+        color: #FFFFFF;
+        transition: .2s;
+        border-radius: 10px;
+      }
+    }
+
+    &-bottom {
+      display: flex;
+      column-gap: 30px;
+      justify-content: right;
+      margin-top: 20px;
+    }
+
+    &-favorites {
+      display: flex;
+      align-items: center;
+      @include text(400, 12px, 150%, #767ab9);
+    }
+
+    &-icons {
+      color: #767ab9;
+      font-size: 20px;
+      margin-right: 5px;
+    }
+
+    &-basket {
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      @include text(400, 12px, 150%, #767ab9);
+    }
+  }
+
+  &__menu {
+    background: #767ab9;
+    padding: 10px 0;
+    &-list {
+      display: flex;
+      position: relative;
+      justify-content: space-between;
+    }
+    &-item {
+      position: relative;
+      @include text(400, 18px, 150%, #fff);
+      cursor: pointer;
+      border: 1px solid #767ab9;
+      padding: 2px 7px;
+      border-radius: 8px;
+      transition: .2s;
+      &:hover,{
+        border: 1px solid #767ab9;
+        padding: 2px 7px;
+        background: #FFFFFF;
+        border-radius: 8px;
+        color: #767ab9;
+        transition: .2s;
+      }
+      &:hover .header__subMenu-list{
+        display: block;
+        transition: .3s;
+      }
+
+    }
+  }
+  &__subMenu-list{
+    position:absolute;
+    width: 200px;
+    height: 300px;
+    z-index: 9999;
+    text-align: center;
+    top: 108%;
+    left: -20px;
+    background: #767ab9;
+    padding: 20px;
+    border-radius: 10px;
+    display: none;
+    transition: .3s;
+    cursor: pointer;
+
+  }
+  &__subMenu-item{
+    padding: 10px 5px;
+    @include text(400, 14px, 150%, #fff);
+    border: 1px solid #767ab9;
+    border-radius: 8px;
+    transition: .3s;
+    &:hover,{
+      border: 1px solid #fff;
+      border-radius: 8px;
+      color: #767ab9;
+      transition: .3s;
+    }
+  }
+
+  &__subMenu-link{
+    color: white;
+
+  }
+}
