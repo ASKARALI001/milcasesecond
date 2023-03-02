@@ -2,13 +2,13 @@
  
   &__info{
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     row-gap: 20px;
     &-desc{
-      @include text(400, 16px, 150%, #767ab9)
+      @include text(400, 20px, 150%, #767ab9)
     }
     &-icons{
-      font-size: 20px;
+      font-size: 24px;
       margin-right: 8px;
     }
   }

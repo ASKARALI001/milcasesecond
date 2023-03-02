@@ -14,7 +14,6 @@ const Accessories = ({title}) => {
                     <li className='accessories__info-desc'> <RiBattery2ChargeLine className="accessories__info-icons"/>Внешние аккумуляторы</li>
                     <li className='accessories__info-desc'><BsPhone className="accessories__info-icons"/>Защитные стекла</li>
                     <li className='accessories__info-desc'><MdCable className="accessories__info-icons"/>Кабели для зарядки телефона</li>
-                    <li className='accessories__info-desc'>Чехлы для наушников</li>
                 </ul>
             </div>
 

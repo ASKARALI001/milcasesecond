@@ -24,7 +24,6 @@ const Header = () => {
                     <div className="header__right">
                         <div className="header__right-top">
                             <ul className='header__right-list'>
-                                <li className="header__right-item">Оптом</li>
                                 <li className="header__right-item">Оплата</li>
                                 <li className="header__right-item">Доставка</li>
                                 <li className="header__right-item">Контакты</li>
@@ -32,7 +31,9 @@ const Header = () => {
                         </div>
                         <div className="header__right-bottom">
                         <div className="header__right-favorites">
-                            <MdFavoriteBorder className='header__right-icons'/> 0
+                            <Link to={'/favorite'}>
+                                <MdFavoriteBorder className='header__right-icons'/>
+                            </Link> 0
                         </div>
                             <div className="header__right-basket">
                                 <Link  className='header__right-basket' to={'/basket'}>
