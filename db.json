@@ -1,0 +1,314 @@
+{
+  "users": [
+    {
+      "email": "aziz@mail.ru",
+      "password": "$2a$10$OncO7a7NuAjY5VJB5vC4oewCPk13z92xdufboYCikZeVFq9t9Q5TS",
+      "name": "Askar",
+      "phone": "+996(501)22-22-22",
+      "id": 1
+    },
+    {
+      "email": "afsdf@mail.ru",
+      "password": "$2a$10$.o1M77Ka7pdY70dg/XHf1OqDTZzIiB44.9ImMqbgNoQly8PR2VIH6",
+      "name": "sdfa",
+      "phone": "+996(213)41-23-41",
+      "id": 2
+    },
+    {
+      "email": "asdf@mail.ru",
+      "password": "$2a$10$WOXdAku7A1XvDValIrg9dOY1abF7/z/1FtDCRGXJ0H1X/tv9bqyP.",
+      "name": "askar",
+      "phone": "+996(788)78-77-87",
+      "id": 3
+    },
+    {
+      "email": "askar@mail.ru",
+      "password": "$2a$10$C7r1WZyq8GreiIzb6r1keu9bgvYJ6FmtBFX7ynKQGkWN3cxzw6w4W",
+      "name": "askar",
+      "phone": "+996(778)90-09-00",
+      "id": 4
+    },
+    {
+      "email": "as@mail.ru",
+      "password": "$2a$10$SOeZNJcgs/nmcj1sanbsrOf.WKns84GhByJHneiLGWJZNuDgU0tQu",
+      "name": "Askar",
+      "phone": "+996(990)90-90-90",
+      "id": 5
+    },
+    {
+      "email": "afad@mail.ru",
+      "password": "$2a$10$rJaGkt7arnZCUCJy0MT/Y.9pQjIyyQ2T170RVsmf/tAPK90qd4ONG",
+      "name": "erwert",
+      "phone": "+996(434)53-54-35",
+      "id": 6
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "brand": "apple",
+      "title": "iphone 11pro",
+      "description": "для каждого любителя",
+      "price": 300,
+      "category": "чехлы" ,
+      "subCategory": "ПЛАСТИКОВЫЕ ЧЕХЛЫ" ,
+      "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/0e/0ea82e0d7f058be7a31c9aa256d9cdb9.png.webp",
+      "image": [
+        "../assets/image/iphone.JPG",
+        "../assets/image/iphone.JPG",
+        "../assets/image/iphone.JPG"
+      ]
+    },{
+      "id": 2,
+      "brand": "samsung",
+      "title": "iphone 11pro",
+      "description": "для каждого любителя",
+      "price": 300,
+      "category": "чехлы" ,
+      "subCategory": "СИЛИКОНОВЫЕ ЧЕХЛЫ" ,
+      "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/2f/2f68b10ef45ba8c2db5c4c2ada5ed056.png.webp",
+      "image": [
+        "../assets/image/iphone.JPG",
+        "../assets/image/iphone.JPG",
+        "../assets/image/iphone.JPG"
+      ]
+    },{
+      "id": 3,
+      "brand": "xiaomi",
+      "title": "iphone 11pro",
+      "description": "для каждого любителя",
+      "price": 300,
+      "category": "чехлы" ,
+      "subCategory": "ЧЕХЛЫ PREMIUM" ,
+      "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/12/1286f53913a83681fe16bfb70a7bc447.png.webp",
+      "image": [
+        "https://case-place.ru/core/assets/thumbnails/12/1286f53913a83681fe16bfb70a7bc447.png.webp",
+        "../assets/image/iphone.JPG",
+        "../assets/image/iphone.JPG"
+      ]
+    },{
+      "id": 4,
+      "brand": "honor",
+      "title": "iphone 11pro",
+      "description": "для каждого любителя",
+      "price": 300,
+      "category": "чехлы" ,
+      "subCategory": "ЧЕХЛЫ КНИЖКИ" ,
+      "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/71/7195fe1c0332d289b91adc6a20a9c6d9.png.webp",
+      "image": [
+        "https://case-place.ru/core/assets/thumbnails/71/7195fe1c0332d289b91adc6a20a9c6d9.png.webp",
+        "../assets/image/iphone.JPG",
+        "../assets/image/iphone.JPG"
+      ]
+    },{
+      "id": 5,
+      "brand": "huawei",
+      "title": "iphone 11pro",
+      "description": "для каждого любителя",
+      "price": 300,
+      "category": "чехлы" ,
+      "subCategory": "ЖИДКИЕ ЧЕХЛЫ С БЛЕСТКАМИ" ,
+      "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/45/45df2bdab5875f8f0602a1e344e1f15b.png.webp",
+      "image": [
+        "../assets/image/iphone.JPG",
+        "../assets/image/iphone.JPG",
+        "../assets/image/iphone.JPG"
+      ]
+    },{
+      "id": 6,
+      "brand": "apple",
+      "title": "iphone 11pro",
+      "description": "для каждого любителя",
+      "price": 300,
+      "category": "чехлы" ,
+      "subCategory": "МАТОВЫЕ СИЛИКОНОВЫЕ ЧЕХЛЫ" ,
+      "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/07/070ed2266b8f319dcd0c41c1724c2a9a.png.webp",
+      "image": [
+        "../assets/image/iphone.JPG",
+        "../assets/image/iphone.JPG",
+        "../assets/image/iphone.JPG"
+      ]
+    },{
+      "id": 7,
+      "brand": "samsung",
+      "title": "iphone 11pro",
+      "description": "для каждого любителя",
+      "price": 300,
+      "category": "чехлы" ,
+      "subCategory": "ПРОТИВОУДАРНЫЕ ЧЕХЛЫ" ,
+      "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/5b/5b45d1663cd46d57d9340a10be9620cc.png.webp",
+      "image": [
+        "../assets/image/iphone.JPG",
+        "../assets/image/iphone.JPG",
+        "../assets/image/iphone.JPG"
+      ]
+    },{
+      "id": 8,
+      "brand": "xiaomi",
+      "title": "iphone 11pro",
+      "description": "для каждого любителя",
+      "price": 300,
+      "category": "чехлы" ,
+      "subCategory": "ЖИДКИЕ НЕОНОВЫЕ ЧЕХЛЫ" ,
+      "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/50/50aad0c6ca99b259ceae2b87aeac133c.png.webp",
+      "image": [
+        "../assets/image/iphone.JPG",
+        "../assets/image/iphone.JPG",
+        "../assets/image/iphone.JPG"
+      ]
+    },{
+      "id": 9,
+      "brand": "honor",
+      "title": "iphone 11pro",
+      "description": "для каждого любителя",
+      "price": 300,
+      "category": "чехлы" ,
+      "subCategory": "ЭКО\nЧЕХЛЫ" ,
+      "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/cb/cbdfc7c2318e3648bc7f36019a858dea.png.webp",
+      "image": [
+        "../assets/image/iphone.JPG",
+        "../assets/image/iphone.JPG",
+        "../assets/image/iphone.JPG"
+      ]
+    },{
+      "id": 10,
+      "brand": "apple",
+      "title": "iphone 11pro",
+      "description": "для каждого любителя",
+      "price": 300,
+      "category": "чехлы" ,
+      "subCategory": "ЧЕХЛЫ ДЛЯ AIRPODS" ,
+      "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/58/58846a497dd89a410c8e97c64cb03f16.png.webp",
+      "image": [
+        "../assets/image/iphone.JPG",
+        "../assets/image/iphone.JPG",
+        "../assets/image/iphone.JPG"
+      ]
+    },{
+      "id": 11,
+      "brand": "huawei",
+      "title": "iphone 11pro",
+      "description": "для каждого любителя",
+      "price": 300,
+      "category": "чехлы" ,
+      "subCategory": "СТЕКЛА" ,
+      "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/5a/5ae1b1e801f04e087caa5f8c8a96350a.png.webp",
+      "image": [
+        "../assets/image/iphone.JPG",
+        "../assets/image/iphone.JPG",
+        "../assets/image/iphone.JPG"
+      ]
+    },{
+      "id": 12,
+      "brand": "apple",
+      "title": "iphone 11pro",
+      "description": "для каждого любителя",
+      "price": 300,
+      "category": "чехлы" ,
+      "subCategory": "АККУМУЛЯТОРЫ" ,
+      "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/72/72fbde7b1d08862fb52a3379b28c8868.png.webp",
+      "image": [
+        "../assets/image/iphone.JPG",
+        "../assets/image/iphone.JPG",
+        "../assets/image/iphone.JPG"
+      ]
+    },{
+      "id": 13,
+      "brand": "apple",
+      "title": "iphone 11pro",
+      "description": "для каждого любителя",
+      "price": 300,
+      "category": "чехлы" ,
+      "subCategory": "АККУМУЛЯТОРЫ" ,
+      "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/72/72fbde7b1d08862fb52a3379b28c8868.png.webp",
+      "image": [
+        "../assets/image/iphone.JPG",
+        "../assets/image/iphone.JPG",
+        "../assets/image/iphone.JPG"
+      ]
+    },{
+      "id": 14,
+      "brand": "apple",
+      "title": "iphone 11pro",
+      "description": "для каждого любителя",
+      "price": 300,
+      "category": "чехлы" ,
+      "subCategory": "АККУМУЛЯТОРЫ" ,
+      "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/72/72fbde7b1d08862fb52a3379b28c8868.png.webp",
+      "image": [
+        "../assets/image/iphone.JPG",
+        "../assets/image/iphone.JPG",
+        "../assets/image/iphone.JPG"
+      ]
+    },{
+      "id": 15,
+      "brand": "apple",
+      "title": "iphone 11pro",
+      "description": "для каждого любителя",
+      "price": 300,
+      "category": "чехлы" ,
+      "subCategory": "АККУМУЛЯТОРЫ" ,
+      "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/72/72fbde7b1d08862fb52a3379b28c8868.png.webp",
+      "image": [
+        "../assets/image/iphone.JPG",
+        "../assets/image/iphone.JPG",
+        "../assets/image/iphone.JPG"
+      ]
+    }
+  ],
+  "commit": [
+    {
+      "id": 1,
+      "post": "",
+      "user": "askar",
+      "text": "goode like"
+    }
+  ],
+  "category": [
+    {
+      "id": 1,
+      "title": "ПЛАСТИКОВЫЕ ЧЕХЛЫ",
+      "image": "https://case-place.ru/core/assets/thumbnails/0e/0ea82e0d7f058be7a31c9aa256d9cdb9.png.webp"
+    },
+    {
+      "id": 2,
+      "title": "СИЛИКОНОВЫЕ ЧЕХЛЫ",
+      "image": "https://case-place.ru/core/assets/thumbnails/2f/2f68b10ef45ba8c2db5c4c2ada5ed056.png.webp"
+    },
+    {
+      "id": 3,
+      "title": "ЧЕХЛЫ PREMIUM",
+      "image": "https://case-place.ru/core/assets/thumbnails/12/1286f53913a83681fe16bfb70a7bc447.png.webp"
+    },
+    {
+      "id": 4,
+      "title": "ЧЕХЛЫ КНИЖКИ",
+      "image": "https://case-place.ru/core/assets/thumbnails/71/7195fe1c0332d289b91adc6a20a9c6d9.png.webp"
+    },
+    {
+      "id": 5,
+      "title": "ЖИДКИЕ ЧЕХЛЫ С БЛЕСТКАМИ",
+      "image": "https://case-place.ru/core/assets/thumbnails/45/45df2bdab5875f8f0602a1e344e1f15b.png.webp"
+    },
+    {
+      "id": 6,
+      "title": "МАТОВЫЕ СИЛИКОНОВЫЕ ЧЕХЛЫ",
+      "image": "https://case-place.ru/core/assets/thumbnails/07/070ed2266b8f319dcd0c41c1724c2a9a.png.webp"
+    },
+    {
+      "id": 7,
+      "title": "ПРОТИВОУДАРНЫЕ ЧЕХЛЫ",
+      "image": "https://case-place.ru/core/assets/thumbnails/5b/5b45d1663cd46d57d9340a10be9620cc.png.webp"
+    },
+    {
+      "id": 8,
+      "title": "ЖИДКИЕ НЕОНОВЫЕ ЧЕХЛЫ",
+      "image": "https://case-place.ru/core/assets/thumbnails/50/50aad0c6ca99b259ceae2b87aeac133c.png.webp"
+    },
+    {
+      "id": 9,
+      "title": "ЭКО\nЧЕХЛЫ",
+      "image": "https://case-place.ru/core/assets/thumbnails/cb/cbdfc7c2318e3648bc7f36019a858dea.png.webp"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 import React from 'react';
 import Slider from "./Slider/Slider";
-import AllProducts from "./Products/AllProducts";
+import AllProducts from "./AllProducts/AllProducts";
 import Video from "./Video/Video";
 import Products from "../../components/Products/Products";
 import Delivery from "./Delivery/Delivery";

@@ -1,6 +1,6 @@
 import React from 'react';
 import Aside from "../Aside/Aside";
-import IphoneProducts from "../Iphone__products/Iphone__products";
+import IphoneProducts from "../IphoneProducts/IphoneProducts";
 
 const IphoneTwo = () => {
     return (

@@ -1,6 +1,6 @@
 import React from 'react';
 import Title from "../../components/Title/Title";
-import IphoneCard from "../../components/Iphone__card/Iphone__card";
+import IphoneCard from "../../components/IphoneCard/IphoneCard";
 
 const Favorite = ({title}) => {
     return (

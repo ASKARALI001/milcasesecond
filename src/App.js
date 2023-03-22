@@ -1,31 +1,17 @@
-import {Route, Routes} from "react-router-dom";
-import Layout from "./Layout/Layout";
-import Home from "./pages/Home/Home";
+import PrivateRouting from "./routing/PrivateRouting";
 import '../src/style/sytle.scss'
-import Iphone from "./pages/Iphone/Iphone";
-import Basket from "./pages/Basket/Basket";
-import Favorite from "./pages/Favorite/Favorite";
+import {useSelector} from "react-redux";
 
 function App() {
+
+    const {user} = useSelector((store) => store.persistedReducer.user)
+    console.log(user.name)
   return (
     <div className="App">
-      <Routes>
-        <Route path={''} element={<Layout/>}>
-            <Route path={'/'} element={<Home/>}/>
-            <Route path={'/iphone'} element={<Iphone/>}/>
-            <Route path={'/basket'} element={<Basket/>}/>
-            <Route path={'/favorite'} element={<Favorite/>}/>
-
-        </Route>
-
-
-
-
-
-      </Routes>
-
-
-
+        {/*{*/}
+        {/*    !user.name.length ?*/}
+        {/*}*/}
+        <PrivateRouting/>
     </div>
   );
 }

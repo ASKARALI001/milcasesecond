@@ -82,26 +82,31 @@
 
   &__menu {
     background: #767ab9;
-    padding: 10px 0;
+    &-link{
+      padding: 20px;
+      width: 100%;
+      color: #fff;
+    }
+
     &-list {
       display: flex;
       position: relative;
-      justify-content: space-between;
+      justify-content: center;
     }
+
     &-item {
       position: relative;
-      @include text(400, 18px, 150%, #fff);
+      @include text(400, 16px, 150%, #fff);
       cursor: pointer;
       border: 1px solid #767ab9;
-      padding: 2px 7px;
-      border-radius: 8px;
+      padding: 12px 7px;
+      width: 345px;
+      text-align: center;
       transition: .2s;
       &:hover,{
         border: 1px solid #767ab9;
-        padding: 2px 7px;
-        background: #FFFFFF;
-        border-radius: 8px;
-        color: #767ab9;
+        background: #767ab9;
+        color: #fff;
         transition: .2s;
       }
       &:hover .header__subMenu-list{
@@ -113,36 +118,41 @@
   }
   &__subMenu-list{
     position:absolute;
-    width: 200px;
-    height: 300px;
+    width: 100%;
+    height: auto;
     z-index: 9999;
-    text-align: center;
-    top: 108%;
-    left: -20px;
+    text-align: left;
+    top: 48px;
+    left: 0;
     background: #767ab9;
     padding: 20px;
-    border-radius: 10px;
     display: none;
     transition: .3s;
     cursor: pointer;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 
   }
   &__subMenu-item{
     padding: 10px 5px;
     @include text(400, 14px, 150%, #fff);
     border: 1px solid #767ab9;
-    border-radius: 8px;
     transition: .3s;
     &:hover,{
       border: 1px solid #fff;
-      border-radius: 8px;
-      color: #767ab9;
+      background: #FFFFFF;
+      @include text(400, 14px, 150%, #767ab9);
       transition: .3s;
+      &:hover .header__menu-link{
+        color: #767ab9;
+      }
     }
-  }
 
+
+  }
   &__subMenu-link{
-    color: white;
-
+    @include text(400, 16px, 150%, #fff);
   }
+
+
 }

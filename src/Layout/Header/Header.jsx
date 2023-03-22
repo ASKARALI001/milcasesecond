@@ -4,8 +4,13 @@ import { SlBasket } from 'react-icons/sl';
 import Logo from '../../assets/image/logoMillcase.PNG'
 import HeaderMenu from "../../components/HeaderMenu/HeaderMenu";
 import {Link} from "react-router-dom";
+import {useSelector} from "react-redux";
 
 const Header = () => {
+
+    const {user} = useSelector((store) => store.persistedReducer.user)
+    console.log(user.name)
+
     return (
         <header className="header">
             <div className="container">
@@ -30,6 +35,14 @@ const Header = () => {
                             </ul>
                         </div>
                         <div className="header__right-bottom">
+                            {
+                                user.name.length ? <h2 className='header__right-item'>Выйти</h2> : <h2 className='header__right-item'>Войти</h2>
+                            }
+
+
+
+
+
                         <div className="header__right-favorites">
                             <Link to={'/favorite'}>
                                 <MdFavoriteBorder className='header__right-icons'/>

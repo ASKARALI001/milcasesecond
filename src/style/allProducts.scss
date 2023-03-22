@@ -10,6 +10,7 @@
   }
 
   &__card {
+    overflow: hidden;
     width: calc(33.3333% - 20px);
     padding: 20px;
     height: 200px;
@@ -22,19 +23,25 @@
 
     &:hover {
       background: #FFFFFF;
-      border: 1px solid #767ab9;
-      box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0, rgba(255, 255, 255, 0.8) -6px -2px 16px 0;
+      border: 2px solid #767ab9;
+      box-shadow: rgba(135, 165, 191, 0.48) 10px 5px 20px 4px, rgba(255, 255, 255, 0.8) -10px -5px 20px 4px;
       border-radius: 30px;
       transition: .2s;
       transform: scale(1.05);
+      &:hover .all-products__card-svg{
+        border: 2px solid #767ab9;
+        transition: .2s;
 
+      }
     }
     &-info{
       display: flex;
       justify-content: space-between;
     }
     &-desc{
-      @include text(400, 16px, 150%, darkslateblue);
+      @include text(600, 15px, 150%, #767ab9);
+      width: 150px;
+      z-index: 2;
       text-transform: uppercase;
     }
 
@@ -60,14 +67,12 @@
     }
 
     &-imag{
-      width: 35%;
+      width: 80%;
       position: absolute;
+      z-index: 1;
       left: 50%;
-      top: 50%;
+      top: 40%;
       transform: translate(-50% , -30%);
-    }
-    &-img{
-      border-radius: 10px;
     }
 
 

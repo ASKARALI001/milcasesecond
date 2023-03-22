@@ -1,5 +1,5 @@
 import React from 'react';
-import BasketCard from "../../components/Basket__card/Basket__card";
+import BasketCard from "../../components/BasketCard/BasketCard";
 import Title from "../../components/Title/Title";
 
 const Basket = ({title}) => {
