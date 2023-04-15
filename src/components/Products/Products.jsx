@@ -4,8 +4,12 @@ import "swiper/css";
 import { Autoplay} from "swiper";
 import Product from "../Product/Product";
 import Title from "../Title/Title";
+import {useSelector} from "react-redux";
 
 const Products = ({title}) => {
+
+
+    const { data } = useSelector((store) => store.persistedReducer.products)
     return (
         <section className='products'>
 
@@ -23,36 +27,13 @@ const Products = ({title}) => {
                   modules={[Autoplay]}
                   className="mySwiper product__padding"
               >
-                  <SwiperSlide>
-                  <Product className='product__card'/>
-                  </SwiperSlide>
-                  <SwiperSlide>
-                      <Product className='product__card'/>
-                  </SwiperSlide>
-                  <SwiperSlide>
-                      <Product className='product__card'/>
-                  </SwiperSlide>
-                  <SwiperSlide>
-                      <Product className='product__card'/>
-                  </SwiperSlide>
-                  <SwiperSlide>
-                      <Product className='product__card'/>
-                  </SwiperSlide>
-                  <SwiperSlide>
-                      <Product className='product__card'/>
-                  </SwiperSlide>
-                  <SwiperSlide>
-                      <Product className='product__card'/>
-                  </SwiperSlide>
-                  <SwiperSlide>
-                      <Product className='product__card'/>
-                  </SwiperSlide>
-                  <SwiperSlide>
-                      <Product className='product__card'/>
-                  </SwiperSlide>
-
-
-
+                  {
+                      data.length && data.map((item) => (
+                          <SwiperSlide>
+                              <Product item={item} className='product__card'/>
+                          </SwiperSlide>
+                      ))
+                  }
               </Swiper>
           </div>
 

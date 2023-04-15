@@ -1,6 +1,7 @@
 import React from 'react';
 import Title from "../../components/Title/Title";
 import IphoneCard from "../../components/IphoneCard/IphoneCard";
+import FavoriteCard from "./FavoriteCard";
 
 const Favorite = ({title}) => {
     return (
@@ -8,10 +9,7 @@ const Favorite = ({title}) => {
             <div className="container">
                 <Title title={'ИЗБРАННОЕ'}/>
                 <div className="favorite__content">
-                    <IphoneCard/>
-                    <IphoneCard/>
-                    <IphoneCard/>
-                    <IphoneCard/>
+                    <FavoriteCard/>
 
                 </div>
             </div>

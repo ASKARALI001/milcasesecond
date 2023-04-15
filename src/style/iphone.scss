@@ -50,16 +50,201 @@
     column-gap: 15px;
     row-gap: 20px;
     flex-wrap: wrap;
-    width: 70%;
+    padding: 30px 20px;
 
   }
-  &__card{
-    width: calc(33.33333% - 10px);
-    border: 2px solid #767ab9;
+  &__card {
+    width: calc(25% - 15px);
+    border: 1px solid #767ab980;
     background: #FFFFFF;
     border-radius: 30px;
     transition: .2s;
     cursor: pointer;
+    padding: 2px;
+    &:hover {
+      border: none;
+      box-shadow: rgba(135, 165, 191, 0.48) 10px 5px 20px 4px, rgba(255, 255, 255, 0.8) -10px -5px 20px 4px;
+      border-radius: 30px;
+      transition: .2s;
+      transform: scale(1.05);
+    }
+  }
+  &__block{
+    background: #f1f1f1;
+    padding: 20px;
+    &-title{
+      @include text(600, 24px, 150%, #767ab9);
+    }
+
+  }
+  &__blockCard{
+    background: #FFFFFF;
+    padding: 10px;
+    margin: 40px 0 ;
+    position: relative;
+    &-row{
+      display: flex;
+      column-gap: 40px;
+    }
+    &-images{
+      width: 50%;
+    }
+    &-right{
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+    }
+    &-descrip{
+      @include text(700, 15px, 150%, #767ab9);
+    }
+    &-second{
+      margin: 15px 0;
+    }
+    &-info{
+      display: flex;
+      flex-direction: column;
+      row-gap: 60px;
+    }
+    &-prices{
+      display: flex;
+      column-gap: 50px;
+      align-items: center;
+    }
+    &-text{
+      @include text(600, 12px, 150%, #00000080);
+    }
+    &-price{
+      @include text(400, 18px, 150%, #767ab9);
+    }
+    &-btn{
+      border-radius: 20px;
+      padding: 12px 10px;
+      background: #767ab9;
+      color: #FFFFFF;
+      cursor: pointer;
+      border: 1px solid #767ab9;
+      &:hover{
+        background: #FFFFFF;
+        color: #767ab9;
+
+      }
+
+
+    }
+    &-icon{
+      font-size: 20px;
+      color: #767ab9;
+      border: 1px solid #767ab9;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      padding: 3px;
+      cursor: pointer;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 10;
+    }
+    &-icons{
+      font-size: 20px;
+      color: #767ab9;
+      border: 1px solid #767ab9;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      padding: 3px;
+      cursor: pointer;
+    }
+    &-images{
+      position: relative;
+
+    }
+    &-span{
+      color: #767ab9;
+      font-size: 40px;
+    }
+    &-delivery{
+      display: flex;
+      column-gap: 20px;
+    }
+    &-desc{
+      @include text(400, 12px, 150%, #767ab9);
+    }
+    &-lit{
+      @include text(600, 12px, 150%, #767ab9);
+    }
+  }
+  &__blockInfo{
+    &-block{
+      display: flex;
+      column-gap: 50px;
+      justify-content: space-between;
+      position: relative;
+
+    }
+
+    &-content{
+      display: flex;
+      flex-direction: column;
+      width: 33%;
+      //&:before{
+      //  content: '';
+      //  position: absolute;
+      //  height: 250px;
+      //  width: 2px;
+      //  background: #767ab980;
+      //  top: 20px;
+      //  left: 300px;
+      //}
+      //&:after{
+      //  content: '';
+      //  position: absolute;
+      //  height: 250px;
+      //  width: 2px;
+      //  background: #767ab980;
+      //  top: 20px;
+      //  right: 380px;
+      //}
+    }
+    &-ops{
+      @include text(400, 12px , 150%, #767ab9);
+    }
+    &-title{
+      @include text(600, 18px, 150%, #767ab9);
+      margin-bottom: 20px;
+    }
+    &-text{
+      display: flex;
+      margin-bottom: 20px;
+      column-gap: 10px;
+    }
+    &-hor{
+      @include text(400, 12px, 150%, #00000080);
+    }
+    &-desc{
+      @include text(400, 14px , 150%, #767ab9);
+    }
+    &-del{
+      @include text(400, 16px, 150%, #767ab9);
+      margin-bottom: 20px;
+    }
+    &-icon{
+      display: flex;
+    }
+    &-image{
+      width: 70%;
+    }
+
+  }
+  &__blockCommit{
+    display: flex;
+    flex-direction: column;
+    &-width{
+      width: 50%;
+    }
   }
 }
 

@@ -1,5 +1,5 @@
 .all-products {
-  padding: 80px 0 40px;
+  padding:40px 0;
   background: #f1f1f1;
 
   &__content {
@@ -16,14 +16,13 @@
     height: 200px;
     position: relative;
     border-radius: 30px;
-    border: 1px solid #F8F8F8;
     background: #fff;
     cursor: pointer;
     transition: .2s;
 
     &:hover {
       background: #FFFFFF;
-      border: 2px solid #767ab9;
+      border: none;
       box-shadow: rgba(135, 165, 191, 0.48) 10px 5px 20px 4px, rgba(255, 255, 255, 0.8) -10px -5px 20px 4px;
       border-radius: 30px;
       transition: .2s;

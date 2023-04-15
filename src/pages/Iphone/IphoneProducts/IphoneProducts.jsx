@@ -1,22 +1,23 @@
 import React, {useEffect} from 'react';
-import Product from "../../../components/Product/Product";
 import IphoneCard from "../../../components/IphoneCard/IphoneCard";
 import {useDispatch, useSelector} from "react-redux";
 import {getProducts} from "../../../redux/reducers/products";
+import {getFavorite} from "../../../redux/reducers/addFavorite";
 
 
 
 const IphoneProducts = () => {
 
-    const  {status, error, data }  = useSelector((store) => store.persistedReducer.products)
+    const  {filter}  = useSelector((store) => store.persistedReducer.products)
 
 
     const dispatch = useDispatch()
 
 
     useEffect(() => {
-        dispatch(getProducts())
-    },[])
+        dispatch(getProducts(filter))
+        dispatch(getFavorite())
+    },[filter.subCategory, filter.order])
 
     return (
         <div className='iphone__products'>

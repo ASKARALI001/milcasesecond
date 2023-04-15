@@ -1,14 +1,28 @@
 .basket{
   padding: 40px 0;
+  &__title{
+    @include text(700, 46px, 150%, #767ab9);
+    margin: 50px 0;
+    text-align: center;
+  }
+  &__allPrice{
+    @include text(700, 30px, 150%, #767ab9);
+    text-align: center;
+  }
   &__card{
     display: flex;
     align-items: center;
-    column-gap: 70px;
+    justify-content: space-between;
     &-info{
       display: flex;
       align-items: center;
       column-gap: 40px;
 
+    }
+    &-row{
+      display: flex;
+      align-items: center;
+      column-gap: 60px;
     }
     &-icon{
       font-size: 20px;
@@ -34,14 +48,18 @@
       column-gap: 10px;
     }
     &-quanti{
-      padding: 6px 10px;
+      width: 40px;
+      height: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       border-radius: 50%;
       border: 1px solid #767ab9;
     }
     &-text{
       display: flex;
       align-items: center;
-      column-gap: 20px;
+      column-gap: 40px;
     }
     &-price{
       @include text(400, 18px, 150%, #767ab9);

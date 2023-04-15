@@ -10,8 +10,8 @@
       border-top: 1px solid #767ab9;
       border-right: 1px solid #767ab9;
       border-left: 1px solid #767ab9;
-      border-top-right-radius: 4px;
-      border-top-left-radius: 4px;
+      border-top-right-radius: 10px;
+      border-top-left-radius: 10px;
 
     }
     &-title{
@@ -23,8 +23,8 @@
     &-column{
       border: 1px solid #767ab9;
       padding: 5px;
-      border-bottom-right-radius: 4px;
-      border-bottom-left-radius: 4px;
+      border-bottom-right-radius: 10px;
+      border-bottom-left-radius: 10px;
     }
     &-list{
       display: flex;
@@ -38,6 +38,7 @@
       background: #f1f1f1;
       text-align: left;
       padding: 8px 5px;
+      cursor: pointer;
     }
     &-bottom{
       display: flex;
@@ -50,7 +51,20 @@
       width: calc(14.28571% - 6.85714px);
       text-align: center;
       background: #f1f1f1;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
       padding: 8px 5px;
+
+    }
+    &-phone{
+      display: flex;
+      flex-wrap: wrap;
+      column-gap: 15px;
+      row-gap: 15px;
+      margin: 50px;
+
     }
   }
 }

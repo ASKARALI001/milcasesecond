@@ -1,5 +1,6 @@
 import React from 'react';
 import {useSelector} from "react-redux";
+import Breadcrumbs from "../Breadcrumbs/Breadcrumbs";
 
 const IphoneTitle = ({title}) => {
 
@@ -7,7 +8,8 @@ const IphoneTitle = ({title}) => {
     return (
         <div className='iphone__bg'>
             <div className="container">
-                <h2 className='iphone__bg-title'>{filter.subCategory } для iPhone XS (10S) из эко-кожи
+                <Breadcrumbs/>
+                <h2 className='iphone__bg-title'>{filter.subCategory } для {filter.brand}
                 </h2>
             </div>
 

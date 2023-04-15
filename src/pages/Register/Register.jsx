@@ -54,6 +54,11 @@ const Register = () => {
                                     },
                                 })}
                                 className='register__form-field' placeholder='Имя' type="text"/>
+                            <span className='register__from-error'>
+                                <span className='register__from-errorText'>
+										{errors.name && errors.name.message}
+									</span>
+								</span>
                         </label>
                         <label className='register__label'>
                             <h2 className='register__label-title'>E-Mail</h2>
@@ -76,7 +81,7 @@ const Register = () => {
                             <InputMask
                                 mask={`+\\9\\96(999)99-99-99`}
                                 type='tel'
-                                // style={{ border: errors.phone && '#f5222d 1px solid' }}
+                                style={{ border: errors.phone && '#f5222d 1px solid' }}
                                 {...register('phone', {
                                     required: {
                                         value: true,

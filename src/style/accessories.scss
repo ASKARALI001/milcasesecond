@@ -2,10 +2,12 @@
  
   &__info{
     display: flex;
-    justify-content: space-between;
-    row-gap: 20px;
+    flex-wrap: wrap;
+    row-gap: 30px;
     &-desc{
-      @include text(400, 20px, 150%, #767ab9)
+      @include text(400, 20px, 150%, #767ab9);
+      width: calc(33%);
+      text-align: center;
     }
     &-icons{
       font-size: 24px;

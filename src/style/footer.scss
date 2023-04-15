@@ -1,5 +1,8 @@
 .footer{
-  padding: 60px 0 20px;
+  padding: 20px 0;
+  border-top: 20px solid #767ab9 ;
+  border-bottom: 20px solid #767ab9 ;
+  margin-top: 40px;
   &__row{
     display: flex;
     justify-content: space-between;

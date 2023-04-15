@@ -1,5 +1,5 @@
 import {combineReducers, configureStore} from "@reduxjs/toolkit";
-import products, {productsSlice} from "./reducers/products";
+import products from "./reducers/products";
 import user from "./reducers/user";
 import storage from 'redux-persist/lib/storage'
 import {
@@ -11,12 +11,16 @@ import {
     PERSIST,
     PURGE,
     REGISTER, } from 'redux-persist';
-import findUsers from "./reducers/findUsers";
+import addFavorite from "./reducers/addFavorite";
+import product from "./reducers/product";
+import commit from "./reducers/commit";
 
 const rootReducer = combineReducers({
     products: products,
     user,
-    findUsers
+    addFavorite,
+    product,
+    commit
 })
 
 
@@ -24,7 +28,8 @@ const rootReducer = combineReducers({
 const persistConfig = {
     key : 'root',
     storage,
-    blacklist: ['products']
+    blacklist: ['product','commit','products'],
+
 }
 const persistedReducer = persistReducer(persistConfig, rootReducer)
 

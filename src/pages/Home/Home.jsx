@@ -5,6 +5,7 @@ import Video from "./Video/Video";
 import Products from "../../components/Products/Products";
 import Delivery from "./Delivery/Delivery";
 import Accessories from "./Accessories/Accessories";
+import HomeCommit from "./HomeCommit/HomeCommit";
 
 
 const Home = () => {
@@ -14,10 +15,10 @@ const Home = () => {
             <AllProducts/>
             <Video/>
             <Products title='ХИТЫ ПРОДАЖ'/>
-            <Products title='АККУМУЛЯТОР'/>
+            <Products title='ВСЕ ПРОДУКТЫ'/>
             <Delivery/>
             <Products title='ПОПУЛЯРНЫЕ АКСЕССУАРЫ'/>
-            <Accessories/>
+            <HomeCommit/>
 
         </main>
     );

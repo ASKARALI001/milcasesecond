@@ -8,6 +8,7 @@
   text-decoration: none;
   font-family: 'Quicksand', sans-serif;
   font-style: normal;
+  transition: .3s;
 }
 
 img{
@@ -41,3 +42,6 @@ img{
 @import 'footer';
 @import 'register';
 @import 'allPhone';
+@import 'breadcumbs';
+@import 'commit';
+@import 'ordering';

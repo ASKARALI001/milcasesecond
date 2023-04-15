@@ -1,19 +1,18 @@
 import React from 'react';
-import Iphone__menu from "./IphoneMenu/IphoneMenu";
-import Iphone__title from "../../components/IphoneTitle/IphoneTitle";
-import Iphone__two from "./IphoneTwo/IphoneTwo";
+import IphoneTitle from "../../components/IphoneTitle/IphoneTitle";
+import IphoneMenu from "./IphoneMenu/IphoneMenu";
+import IphoneTwo from "./IphoneTwo/IphoneTwo";
+import IphoneProducts from "./IphoneProducts/IphoneProducts";
 
 const Iphone = () => {
     return (
         <main className='main'>
-            <Iphone__title/>
-            <Iphone__menu />
+            <IphoneTitle/>
+            <IphoneMenu/>
            <div  className="container">
-            <Iphone__two/>
-
+            <IphoneProducts/>
            </div>
         </main>
     );
 };
-
 export default Iphone;

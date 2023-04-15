@@ -1,13 +1,6 @@
 {
   "users": [
     {
-      "email": "aziz@mail.ru",
-      "password": "$2a$10$OncO7a7NuAjY5VJB5vC4oewCPk13z92xdufboYCikZeVFq9t9Q5TS",
-      "name": "Askar",
-      "phone": "+996(501)22-22-22",
-      "id": 1
-    },
-    {
       "email": "afsdf@mail.ru",
       "password": "$2a$10$.o1M77Ka7pdY70dg/XHf1OqDTZzIiB44.9ImMqbgNoQly8PR2VIH6",
       "name": "sdfa",
@@ -41,274 +34,1699 @@
       "name": "erwert",
       "phone": "+996(434)53-54-35",
       "id": 6
+    },
+    {
+      "email": "asdffasd@mail.eu",
+      "password": "$2a$10$u8RFR9xSIlUNdN3dXluon.ci8d./.lbm3Kji9PKBp1SYULnpnnRDu",
+      "name": "maks007",
+      "phone": "+996(999)99-99-99",
+      "id": 7
+    },
+    {
+      "email": "beka@mail.ru",
+      "password": "$2a$10$YfU9zvxcIW4qQCFu5KpKluNVIyu5F.DDXrm3S.Vs4P/JbtAKdmRL2",
+      "name": "beka",
+      "phone": "+996(999)99-99-99",
+      "id": 8
+    },
+    {
+      "email": "Aziz007@mail.ru",
+      "password": "$2a$10$01GSXUA..S7gpJxYNq/ejuNUAlh/ROSUm2nYFBTSTasoS0FSexn3a",
+      "name": "Aziz001",
+      "phone": "+996(999)99-99-90",
+      "id": 9
     }
   ],
   "products": [
     {
       "id": 1,
-      "brand": "apple",
-      "title": "iphone 11pro",
-      "description": "для каждого любителя",
+      "brand": "Appple",
+      "title": "iPhone 4/4S",
+      "description": "Силиконовый чехол без принта на iPhone 4/4S",
+      "count": 0,
       "price": 300,
-      "category": "чехлы" ,
-      "subCategory": "ПЛАСТИКОВЫЕ ЧЕХЛЫ" ,
+      "category": "чехлы",
+      "subCategory": "ПЛАСТИКОВЫЕ ЧЕХЛЫ",
       "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/0e/0ea82e0d7f058be7a31c9aa256d9cdb9.png.webp",
       "image": [
-        "../assets/image/iphone.JPG",
-        "../assets/image/iphone.JPG",
-        "../assets/image/iphone.JPG"
+        "https://case-place.ru/upload/thumbnails/small/10150-9V000.jpg",
+        "https://case-place.ru/upload/thumbnails/small/10150-9R13891.jpg",
+        "https://case-place.ru/upload/thumbnails/small/10150-9R14841.jpg"
       ]
-    },{
+    },
+    {
       "id": 2,
-      "brand": "samsung",
-      "title": "iphone 11pro",
-      "description": "для каждого любителя",
+      "brand": "Apple",
+      "title": "iPhone 4/4S",
+      "description": "Силиконовый чехол без принта на iPhone 4/4S",
+      "count": 0,
       "price": 300,
-      "category": "чехлы" ,
-      "subCategory": "СИЛИКОНОВЫЕ ЧЕХЛЫ" ,
+      "category": "чехлы",
+      "subCategory": "ПЛАСТИКОВЫЕ ЧЕХЛЫ",
+      "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/0e/0ea82e0d7f058be7a31c9aa256d9cdb9.png.webp",
+      "image": [
+        "https://case-place.ru/upload/thumbnails/small/10150-9R13891.jpg",
+        "https://case-place.ru/upload/thumbnails/small/10150-9R14841.jpg",
+        "https://case-place.ru/upload/thumbnails/small/10150-9V000.jpg"
+      ]
+    },
+    {
+      "id": 3,
+      "brand": "Samsung",
+      "title": "iPhone 4/4S",
+      "description": "Силиконовый чехол без принта на iPhone 4/4S",
+      "count": 0,
+      "price": 350,
+      "category": "чехлы",
+      "subCategory": "ПЛАСТИКОВЫЕ ЧЕХЛЫ",
+      "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/0e/0ea82e0d7f058be7a31c9aa256d9cdb9.png.webp",
+      "image": [
+        "https://case-place.ru/upload/thumbnails/small/10150-9V000.jpg",
+        "https://case-place.ru/upload/thumbnails/small/10150-9R13891.jpg",
+        "https://case-place.ru/upload/thumbnails/small/10150-9R14841.jpg"
+      ]
+    },
+    {
+      "id": 4,
+      "brand": "Apple",
+      "title": "iPhone X",
+      "description": "Силиконовый чехол без принта на iPhone X (10)",
+      "count": 0,
+      "price": 500,
+      "category": "чехлы",
+      "subCategory": "СИЛИКОНОВЫЕ ЧЕХЛЫ",
       "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/2f/2f68b10ef45ba8c2db5c4c2ada5ed056.png.webp",
       "image": [
-        "../assets/image/iphone.JPG",
-        "../assets/image/iphone.JPG",
-        "../assets/image/iphone.JPG"
+        "https://case-place.ru/upload/thumbnails/small/11050-9V000.jpg",
+        "https://case-place.ru/upload/thumbnails/small/11050-9V16870.jpg",
+        "https://case-place.ru/upload/thumbnails/small/th_sst-110f (1).png"
       ]
-    },{
-      "id": 3,
-      "brand": "xiaomi",
-      "title": "iphone 11pro",
-      "description": "для каждого любителя",
+    },
+    {
+      "id": 5,
+      "brand": "Apple",
+      "title": "iPhone X",
+      "description": "Силиконовый чехол без принта на iPhone X (10)",
+      "count": 0,
       "price": 300,
-      "category": "чехлы" ,
-      "subCategory": "ЧЕХЛЫ PREMIUM" ,
-      "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/12/1286f53913a83681fe16bfb70a7bc447.png.webp",
+      "category": "чехлы",
+      "subCategory": "СИЛИКОНОВЫЕ ЧЕХЛЫ",
+      "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/2f/2f68b10ef45ba8c2db5c4c2ada5ed056.png.webp",
       "image": [
-        "https://case-place.ru/core/assets/thumbnails/12/1286f53913a83681fe16bfb70a7bc447.png.webp",
-        "../assets/image/iphone.JPG",
-        "../assets/image/iphone.JPG"
+        "https://case-place.ru/upload/thumbnails/small/11050-9V16870.jpg",
+        "https://case-place.ru/upload/thumbnails/small/11050-9V000.jpg",
+        "https://case-place.ru/upload/thumbnails/small/th_sst-110f (1).png"
       ]
-    },{
-      "id": 4,
-      "brand": "honor",
+    },
+    {
+      "id": 6,
+      "brand": "Apple",
+      "title": "iPhone X",
+      "description": "Силиконовый чехол без принта на iPhone X (10)",
+      "count": 0,
+      "price": 450,
+      "category": "чехлы",
+      "subCategory": "СИЛИКОНОВЫЕ ЧЕХЛЫ",
+      "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/2f/2f68b10ef45ba8c2db5c4c2ada5ed056.png.webp",
+      "image": [
+        "https://case-place.ru/upload/thumbnails/small/th_sst-110f (1).png",
+        "https://case-place.ru/upload/thumbnails/small/11050-9V000.jpg",
+        "https://case-place.ru/upload/thumbnails/small/11050-9V000.jpg"
+      ]
+    },
+    {
+      "id": 7,
+      "brand": "Apple",
+      "title": "iPhone 11 Pro Max",
+      "description": "Силиконовый чехол Даниил на iPhone 11 Pro Max",
+      "count": 0,
+      "price": 699,
+      "category": "чехлы",
+      "subCategory": "МАТОВЫЕ СИЛИКОНОВЫЕ ЧЕХЛЫ",
+      "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/2f/2f68b10ef45ba8c2db5c4c2ada5ed056.png.webp",
+      "image": [
+        "https://case-place.ru/upload/thumbnails/small/39b6739a736c750b1c79a589679bf0e5.jpg",
+        "https://case-place.ru/upload/thumbnails/small/471b6a54f8ca6f03c340009f4c14568b.jpg",
+        "https://case-place.ru/upload/thumbnails/small/7d2cc61016ffc1ed1074348f37bbd55a.jpg"
+      ]
+    },
+    {
+      "id": 8,
+      "brand": "Apple",
+      "title": "iPhone 11 Pro Max",
+      "description": "Силиконовый чехол Олениха пятна на iPhone 11 Pro Max",
+      "count": 0,
+      "price": 599,
+      "category": "чехлы",
+      "subCategory": "МАТОВЫЕ СИЛИКОНОВЫЕ ЧЕХЛЫ",
+      "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/2f/2f68b10ef45ba8c2db5c4c2ada5ed056.png.webp",
+      "image": [
+        "https://case-place.ru/upload/thumbnails/small/471b6a54f8ca6f03c340009f4c14568b.jpg",
+        "https://case-place.ru/upload/thumbnails/small/39b6739a736c750b1c79a589679bf0e5.jpg",
+        "https://case-place.ru/upload/thumbnails/small/7d2cc61016ffc1ed1074348f37bbd55a.jpg"
+      ]
+    },
+    {
+      "id": 9,
+      "brand": "Apple",
+      "title": "iPhone 11 Pro Max",
+      "description": "Силиконовый чехол Даниил на iPhone 11 Pro Max",
+      "count": 0,
+      "price": 599,
+      "category": "чехлы",
+      "subCategory": "МАТОВЫЕ СИЛИКОНОВЫЕ ЧЕХЛЫ",
+      "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/2f/2f68b10ef45ba8c2db5c4c2ada5ed056.png.webp",
+      "image": [
+        "https://case-place.ru/upload/thumbnails/small/7d2cc61016ffc1ed1074348f37bbd55a.jpg",
+        "https://case-place.ru/upload/thumbnails/small/471b6a54f8ca6f03c340009f4c14568b.jpg",
+        "https://case-place.ru/upload/thumbnails/small/39b6739a736c750b1c79a589679bf0e5.jpg"
+      ]
+    },
+    {
+      "id": 10,
+      "brand": "Apple",
+      "title": "iPhone 12",
+      "description": "Силиконовый чехол Сочные лимоны на iPhone 12",
+      "count": 0,
+      "price": 799,
+      "category": "чехлы",
+      "subCategory": "ЧЕХЛЫ PREMIUM",
+      "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/2f/2f68b10ef45ba8c2db5c4c2ada5ed056.png.webp",
+      "image": [
+        "https://case-place.ru/upload/thumbnails/small/8c934403e3a79211c074068700e28929.jpg",
+        "https://case-place.ru/upload/thumbnails/small/8eaae7269ab40f0b07a8f76b1e8bdad4.jpg",
+        "https://case-place.ru/upload/thumbnails/small/0446d6d0378bd11ca220135b2c2ac360.jpg"
+      ]
+    },
+    {
+      "id": 11,
+      "brand": "Apple",
+      "title": "iPhone 12",
+      "description": "Силиконовый чехол Ахегао манга тян на iPhone 12",
+      "count": 0,
+      "price": 550,
+      "category": "чехлы",
+      "subCategory": "ЧЕХЛЫ PREMIUM",
+      "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/2f/2f68b10ef45ba8c2db5c4c2ada5ed056.png.webp",
+      "image": [
+        "https://case-place.ru/upload/thumbnails/small/8eaae7269ab40f0b07a8f76b1e8bdad4.jpg",
+        "https://case-place.ru/upload/thumbnails/small/8c934403e3a79211c074068700e28929.jpg",
+        "https://case-place.ru/upload/thumbnails/small/0446d6d0378bd11ca220135b2c2ac360.jpg"
+      ]
+    },
+    {
+      "id": 12,
+      "brand": "Apple",
+      "title": "iPhone 12",
+      "description": "Силиконовый чехол Звездная ночь над Роной на iPhone 12",
+      "count": 0,
+      "price": 550,
+      "category": "чехлы",
+      "subCategory": "ЧЕХЛЫ PREMIUM",
+      "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/2f/2f68b10ef45ba8c2db5c4c2ada5ed056.png.webp",
+      "image": [
+        "https://case-place.ru/upload/thumbnails/small/0446d6d0378bd11ca220135b2c2ac360.jpg",
+        "https://case-place.ru/upload/thumbnails/small/8eaae7269ab40f0b07a8f76b1e8bdad4.jpg",
+        "https://case-place.ru/upload/thumbnails/small/8c934403e3a79211c074068700e28929.jpg"
+      ]
+    },
+    {
+      "id": 13,
+      "brand": "Apple",
+      "title": "iPhone 14 Pro Max",
+      "description": "Premium чехол Happy tiger на iPhone 14 Pro Max",
+      "count": 0,
+      "price": 799,
+      "category": "чехлы",
+      "subCategory": "ЖИДКИЕ ЧЕХЛЫ С БЛЕСТКАМИ",
+      "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/2f/2f68b10ef45ba8c2db5c4c2ada5ed056.png.webp",
+      "image": [
+        "https://case-place.ru/upload/thumbnails/small/464853f505ca3949161b79c0866403c1.jpg",
+        "https://case-place.ru/upload/thumbnails/small/th_653669563832028370402.png",
+        "https://case-place.ru/upload/thumbnails/small/e6e7adb48262df180a0e3ed2e3bffa08.jpg"
+      ]
+    },
+    {
+      "id": 14,
+      "brand": "Apple",
+      "title": "iPhone 14 Pro Max",
+      "description": "Гидрогелевая пленка на iPhone 14 Pro Max",
+      "count": 0,
+      "price": 659,
+      "category": "чехлы",
+      "subCategory": "ЖИДКИЕ ЧЕХЛЫ С БЛЕСТКАМИ",
+      "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/2f/2f68b10ef45ba8c2db5c4c2ada5ed056.png.webp",
+      "image": [
+        "https://case-place.ru/upload/thumbnails/small/th_653669563832028370402.png",
+        "https://case-place.ru/upload/thumbnails/small/464853f505ca3949161b79c0866403c1.jpg",
+        "https://case-place.ru/upload/thumbnails/small/e6e7adb48262df180a0e3ed2e3bffa08.jpg"
+      ]
+    },
+    {
+      "id": 16,
+      "brand": "Samsung",
+      "title": "Samsung Galaxy A51",
+      "description": "Силиконовый чехол Нежные розы акварель на Samsung Galaxy A51",
+      "count": 0,
+      "price": 600,
+      "category": "чехлы",
+      "subCategory": "ПРОТИВОУДАРНЫЕ ЧЕХЛЫ",
+      "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/5b/5b45d1663cd46d57d9340a10be9620cc.png.webp",
+      "image": [
+        "https://case-place.ru/upload/thumbnails/small/a102e7d740525e1c31ce13d19275a62e.jpg",
+        "https://case-place.ru/upload/thumbnails/small/th_sst-289f (1).png",
+        "https://case-place.ru/upload/thumbnails/small/5ba1b6a83d8a9bdbc8f25dcbc1b67bac.jpg"
+      ]
+    },
+    {
+      "id": 17,
+      "brand": "Samsung",
+      "title": "Samsung Galaxy A51",
+      "description": "Силиконовый фисташковый чехол Soft Touch для Samsung Galaxy A51",
+      "count": 0,
+      "price": 600,
+      "category": "чехлы",
+      "subCategory": "ПРОТИВОУДАРНЫЕ ЧЕХЛЫ",
+      "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/5b/5b45d1663cd46d57d9340a10be9620cc.png.webp",
+      "image": [
+        "https://case-place.ru/upload/thumbnails/small/th_sst-289f (1).png",
+        "https://case-place.ru/upload/thumbnails/small/a102e7d740525e1c31ce13d19275a62e.jpg",
+        "https://case-place.ru/upload/thumbnails/small/5ba1b6a83d8a9bdbc8f25dcbc1b67bac.jpg"
+      ]
+    },
+    {
+      "id": 18,
+      "brand": "Samsung",
+      "title": "Samsung Galaxy A51",
+      "description": "Силиконовый чехол Кот рисунок черно-белый на Samsung Galaxy A51",
+      "count": 0,
+      "price": 600,
+      "category": "чехлы",
+      "subCategory": "ПРОТИВОУДАРНЫЕ ЧЕХЛЫ",
+      "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/5b/5b45d1663cd46d57d9340a10be9620cc.png.webp",
+      "image": [
+        "https://case-place.ru/upload/thumbnails/small/5ba1b6a83d8a9bdbc8f25dcbc1b67bac.jpg",
+        "https://case-place.ru/upload/thumbnails/small/th_sst-289f (1).png",
+        "https://case-place.ru/upload/thumbnails/small/a102e7d740525e1c31ce13d19275a62e.jpg"
+      ]
+    },
+    {
+      "id": 19,
+      "brand": "Samsung",
+      "title": "Samsung Galaxy S22 Plus",
+      "description": "Силиконовый чехол Розовый бант Мари на Samsung Galaxy S22 Plus",
+      "count": 0,
+      "price": 600,
+      "category": "чехлы",
+      "subCategory": "ЧЕХЛЫ КНИЖКИ",
+      "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/5b/5b45d1663cd46d57d9340a10be9620cc.png.webp",
+      "image": [
+        "https://case-place.ru/upload/thumbnails/small/f22c3b5b9ec5355f1b17a714b1d66de7.jpg",
+        "https://case-place.ru/upload/thumbnails/small/d371e7e542d946e3e4d4b8cd8a92a394.jpg",
+        "https://case-place.ru/upload/thumbnails/small/e46978e83134a38b7c86cedff3ac02e6.jpg"
+      ]
+    },
+    {
+      "id": 20,
+      "brand": "Samsung",
+      "title": "Samsung Galaxy S22 Plus",
+      "description": "Силиконовый чехол без принта на Samsung Galaxy S22 Ultra",
+      "count": 0,
+      "price": 700,
+      "category": "чехлы",
+      "subCategory": "ЧЕХЛЫ КНИЖКИ",
+      "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/5b/5b45d1663cd46d57d9340a10be9620cc.png.webp",
+      "image": [
+        "https://case-place.ru/upload/thumbnails/small/d371e7e542d946e3e4d4b8cd8a92a394.jpg",
+        "https://case-place.ru/upload/thumbnails/small/f22c3b5b9ec5355f1b17a714b1d66de7.jpg",
+        "https://case-place.ru/upload/thumbnails/small/e46978e83134a38b7c86cedff3ac02e6.jpg"
+      ]
+    },
+    {
+      "id": 21,
+      "brand": "Samsung",
+      "title": "Samsung Galaxy S22 Plus",
+      "description": "Силиконовый чехол без принта на Samsung Galaxy S22 Ultra",
+      "count": 0,
+      "price": 700,
+      "category": "чехлы",
+      "subCategory": "ЧЕХЛЫ КНИЖКИ",
+      "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/5b/5b45d1663cd46d57d9340a10be9620cc.png.webp",
+      "image": [
+        "https://case-place.ru/upload/thumbnails/small/e46978e83134a38b7c86cedff3ac02e6.jpg",
+        "https://case-place.ru/upload/thumbnails/small/d371e7e542d946e3e4d4b8cd8a92a394.jpg",
+        "https://case-place.ru/upload/thumbnails/small/f22c3b5b9ec5355f1b17a714b1d66de7.jpg"
+      ]
+    },
+    {
+      "id": 22,
+      "brand": "Samsung",
+      "title": "Samsung Galaxy Z Flip",
+      "description": "Силиконовый чехол Фольксваген турбо на Samsung Galaxy Z Flip",
+      "count": 0,
+      "price": 690,
+      "category": "чехлы",
+      "subCategory": "ЧЕХЛЫ КНИЖКИ",
+      "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/5b/5b45d1663cd46d57d9340a10be9620cc.png.webp",
+      "image": [
+        "https://case-place.ru/upload/thumbnails/small/a907405f6807adfa6910f379c88e4662.jpg",
+        "https://case-place.ru/upload/thumbnails/small/2107152-9V16555.jpg",
+        "https://case-place.ru/upload/thumbnails/small/16d4185fe3dec87635459a5d8b6907a0.jpg"
+      ]
+    },
+    {
+      "id": 23,
+      "brand": "Samsung",
+      "title": "Samsung Galaxy Z Flip",
+      "description": "Матовый силиконовый чехол Морские жители графика черная на Samsung Galaxy Z Flip",
+      "count": 0,
+      "price": 699,
+      "category": "чехлы",
+      "subCategory": "ЧЕХЛЫ КНИЖКИ",
+      "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/5b/5b45d1663cd46d57d9340a10be9620cc.png.webp",
+      "image": [
+        "https://case-place.ru/upload/thumbnails/small/2107152-9V16555.jpg",
+        "https://case-place.ru/upload/thumbnails/small/a907405f6807adfa6910f379c88e4662.jpg",
+        "https://case-place.ru/upload/thumbnails/small/16d4185fe3dec87635459a5d8b6907a0.jpg"
+      ]
+    },
+    {
+      "id": 24,
+      "brand": "Samsung",
+      "title": "Samsung Galaxy Z Flip",
+      "description": "Силиконовый чехол Ежик мечтатель на Samsung Galaxy Z Flip",
+      "count": 0,
+      "price": 699,
+      "category": "чехлы",
+      "subCategory": "ЧЕХЛЫ КНИЖКИ",
+      "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/5b/5b45d1663cd46d57d9340a10be9620cc.png.webp",
+      "image": [
+        "https://case-place.ru/upload/thumbnails/small/16d4185fe3dec87635459a5d8b6907a0.jpg",
+        "https://case-place.ru/upload/thumbnails/small/2107152-9V16555.jpg",
+        "https://case-place.ru/upload/thumbnails/small/a907405f6807adfa6910f379c88e4662.jpg"
+      ]
+    },
+    {
+      "id": 25,
+      "brand": "Samsung",
+      "title": "Samsung Galaxy S20 Ultra",
+      "description": "Силиконовый чехол Ван Гог Звездная ночь на Samsung Galaxy S20 Ultra",
+      "count": 0,
+      "price": 699,
+      "category": "чехлы",
+      "subCategory": "ЖИДКИЕ ЧЕХЛЫ С БЛЕСТКАМИ",
+      "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/5b/5b45d1663cd46d57d9340a10be9620cc.png.webp",
+      "image": [
+        "https://case-place.ru/upload/thumbnails/small/29450-9R10550.jpg",
+        "https://case-place.ru/upload/thumbnails/small/29450-9V100073.jpg",
+        "https://case-place.ru/upload/thumbnails/small/th_sst-294v (1).jpg"
+      ]
+    },
+    {
+      "id": 26,
+      "brand": "Samsung",
+      "title": "Samsung Galaxy S20 Ultra",
+      "description": "Силиконовый чехол Девушка с кофе на Samsung Galaxy S20 Ultra",
+      "count": 0,
+      "price": 699,
+      "category": "чехлы",
+      "subCategory": "ЖИДКИЕ ЧЕХЛЫ С БЛЕСТКАМИ",
+      "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/5b/5b45d1663cd46d57d9340a10be9620cc.png.webp",
+      "image": [
+        "https://case-place.ru/upload/thumbnails/small/29450-9V100073.jpg",
+        "https://case-place.ru/upload/thumbnails/small/29450-9R10550.jpg",
+        "https://case-place.ru/upload/thumbnails/small/th_sst-294v (1).jpg"
+      ]
+    },
+    {
+      "id": 27,
+      "brand": "Samsung",
+      "title": "Samsung Galaxy S20 Ultra",
+      "description": "Силиконовый бежевый чехол Soft Touch для Samsung Galaxy S20 Ultra",
+      "count": 0,
+      "price": 799,
+      "category": "чехлы",
+      "subCategory": "ЖИДКИЕ ЧЕХЛЫ С БЛЕСТКАМИ",
+      "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/5b/5b45d1663cd46d57d9340a10be9620cc.png.webp",
+      "image": [
+        "https://case-place.ru/upload/thumbnails/small/th_sst-294v (1).jpg",
+        "https://case-place.ru/upload/thumbnails/small/29450-9V100073.jpg",
+        "https://case-place.ru/upload/thumbnails/small/29450-9R10550.jpg"
+      ]
+    },
+    {
+      "id": 28,
+      "brand": "Samsung",
+      "title": "Samsung Galaxy S10 Lite",
+      "description": "Силиконовый чехол We're all mad here на Samsung Galaxy S10 Lite",
+      "count": 0,
+      "price": 599,
+      "category": "чехлы",
+      "subCategory": "ЖИДКИЕ ЧЕХЛЫ С БЛЕСТКАМИ",
+      "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/5b/5b45d1663cd46d57d9340a10be9620cc.png.webp",
+      "image": [
+        "https://case-place.ru/upload/thumbnails/small/210050-9R10782.jpg",
+        "https://case-place.ru/upload/thumbnails/small/210050-9V100155.jpg",
+        "https://case-place.ru/upload/thumbnails/small/210050-9R100680.jpg"
+      ]
+    },
+    {
+      "id": 29,
+      "brand": "Samsung",
+      "title": "Samsung Galaxy S10 Lite",
+      "description": "Силиконовый чехол Мама с малышом на Samsung Galaxy S10 Lite",
+      "count": 0,
+      "price": 599,
+      "category": "чехлы",
+      "subCategory": "ЖИДКИЕ ЧЕХЛЫ С БЛЕСТКАМИ",
+      "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/5b/5b45d1663cd46d57d9340a10be9620cc.png.webp",
+      "image": [
+        "https://case-place.ru/upload/thumbnails/small/210050-9V100155.jpg",
+        "https://case-place.ru/upload/thumbnails/small/210050-9R10782.jpg",
+        "https://case-place.ru/upload/thumbnails/small/210050-9R100680.jpg"
+      ]
+    },
+    {
+      "id": 30,
+      "brand": "Samsung",
+      "title": "Samsung Galaxy M52",
+      "description": "Силиконовый чехол Персонажи 2x2 на Samsung Galaxy M52",
+      "count": 0,
+      "price": 599,
+      "category": "чехлы",
+      "subCategory": "СИЛИКОНОВЫЕ ЧЕХЛЫ",
+      "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/5b/5b45d1663cd46d57d9340a10be9620cc.png.webp",
+      "image": [
+        "https://case-place.ru/upload/thumbnails/small/745989575457962e335c4f3c5e3375d5.jpg",
+        "https://case-place.ru/upload/thumbnails/small/bbe83bab724f02e329f1ea78ae4dbc86.jpg",
+        "https://case-place.ru/upload/thumbnails/small/0318cdabcbfd25877b28fdaf44ac33f2.jpg"
+      ]
+    },
+    {
+      "id": 31,
+      "brand": "Samsung",
+      "title": "Samsung Galaxy M52",
+      "description": "Силиконовый чехол Соты бирюзовые на Samsung Galaxy M52",
+      "count": 0,
+      "price": 599,
+      "category": "чехлы",
+      "subCategory": "СИЛИКОНОВЫЕ ЧЕХЛЫ",
+      "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/5b/5b45d1663cd46d57d9340a10be9620cc.png.webp",
+      "image": [
+        "https://case-place.ru/upload/thumbnails/small/bbe83bab724f02e329f1ea78ae4dbc86.jpg",
+        "https://case-place.ru/upload/thumbnails/small/745989575457962e335c4f3c5e3375d5.jpg",
+        "https://case-place.ru/upload/thumbnails/small/0318cdabcbfd25877b28fdaf44ac33f2.jpg"
+      ]
+    },
+    {
+      "id": 32,
+      "brand": "Samsung",
+      "title": "Samsung Galaxy M52",
+      "description": "Силиконовый чехол Мондреан на Samsung Galaxy M52",
+      "count": 0,
+      "price": 599,
+      "category": "чехлы",
+      "subCategory": "СИЛИКОНОВЫЕ ЧЕХЛЫ",
+      "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/5b/5b45d1663cd46d57d9340a10be9620cc.png.webp",
+      "image": [
+        "https://case-place.ru/upload/thumbnails/small/0318cdabcbfd25877b28fdaf44ac33f2.jpg",
+        "https://case-place.ru/upload/thumbnails/small/bbe83bab724f02e329f1ea78ae4dbc86.jpg",
+        "https://case-place.ru/upload/thumbnails/small/745989575457962e335c4f3c5e3375d5.jpg"
+      ]
+    },
+    {
+      "id": 33,
+      "brand": "Samsung",
+      "title": "Samsung Galaxy M23 5G",
+      "description": "Гидрогелевая пленка на Samsung Galaxy M23 5G",
+      "count": 0,
+      "price": 599,
+      "category": "чехлы",
+      "subCategory": "ЧЕХЛЫ PREMIUM",
+      "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/5b/5b45d1663cd46d57d9340a10be9620cc.png.webp",
+      "image": [
+        "https://case-place.ru/upload/thumbnails/small/th_8725783483113930268.png",
+        "https://case-place.ru/upload/thumbnails/small/db0c6563666d90a111000179638301ec.jpg",
+        "https://case-place.ru/upload/thumbnails/small/0e013ef9cd6f06873596709e0552fb95.jpg"
+      ]
+    },
+    {
+      "id": 34,
+      "brand": "Samsung",
+      "title": "Samsung Galaxy M23 5G",
+      "description": "Силиконовый чехол Единорог сердечки на Samsung Galaxy M23 5G",
+      "count": 0,
+      "price": 499,
+      "category": "чехлы",
+      "subCategory": "ЧЕХЛЫ PREMIUM",
+      "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/5b/5b45d1663cd46d57d9340a10be9620cc.png.webp",
+      "image": [
+        "https://case-place.ru/upload/thumbnails/small/db0c6563666d90a111000179638301ec.jpg",
+        "https://case-place.ru/upload/thumbnails/small/th_8725783483113930268.png",
+        "https://case-place.ru/upload/thumbnails/small/0e013ef9cd6f06873596709e0552fb95.jpg"
+      ]
+    },
+    {
+      "id": 35,
+      "brand": "Samsung",
+      "title": "Samsung Galaxy M23 5G",
+      "description": "Силиконовый чехол Toyota AE86 на Samsung Galaxy M23 5G",
+      "count": 0,
+      "price": 499,
+      "category": "чехлы",
+      "subCategory": "ЧЕХЛЫ PREMIUM",
+      "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/5b/5b45d1663cd46d57d9340a10be9620cc.png.webp",
+      "image": [
+        "https://case-place.ru/upload/thumbnails/small/0e013ef9cd6f06873596709e0552fb95.jpg",
+        "https://case-place.ru/upload/thumbnails/small/db0c6563666d90a111000179638301ec.jpg",
+        "https://case-place.ru/upload/thumbnails/small/th_8725783483113930268.png"
+      ]
+    },
+    {
+      "id": 36,
+      "brand": "Samsung",
+      "title": "Samsung Galaxy M01",
+      "description": "Силиконовый чехол Леон Браво Старс на Samsung Galaxy M01",
+      "count": 0,
+      "price": 499,
+      "category": "чехлы",
+      "subCategory": "ПЛАСТИКОВЫЕ ЧЕХЛЫ",
+      "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/5b/5b45d1663cd46d57d9340a10be9620cc.png.webp",
+      "image": [
+        "https://case-place.ru/upload/thumbnails/small/2101150-9R100051.jpg",
+        "https://case-place.ru/upload/thumbnails/small/2101150-9R10831.jpg",
+        "https://case-place.ru/upload/thumbnails/small/th_gl-21011.png"
+      ]
+    },
+    {
+      "id": 37,
+      "brand": "Samsung",
+      "title": "Samsung Galaxy M01",
+      "description": "Силиконовый чехол Пикачу Япония на Samsung Galaxy M01",
+      "count": 0,
+      "price": 499,
+      "category": "чехлы",
+      "subCategory": "ПЛАСТИКОВЫЕ ЧЕХЛЫ",
+      "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/5b/5b45d1663cd46d57d9340a10be9620cc.png.webp",
+      "image": [
+        "https://case-place.ru/upload/thumbnails/small/2101150-9R10831.jpg",
+        "https://case-place.ru/upload/thumbnails/small/2101150-9R100051.jpg",
+        "https://case-place.ru/upload/thumbnails/small/th_gl-21011.png"
+      ]
+    },
+    {
+      "id": 38,
+      "brand": "Samsung",
+      "title": "Samsung Galaxy M01",
+      "description": "Силиконовый чехол Разноцветная малина на Samsung Galaxy M01",
+      "count": 0,
+      "price": 499,
+      "category": "чехлы",
+      "subCategory": "ПЛАСТИКОВЫЕ ЧЕХЛЫ",
+      "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/5b/5b45d1663cd46d57d9340a10be9620cc.png.webp",
+      "image": [
+        "https://case-place.ru/upload/thumbnails/small/2101150-9R113.jpg",
+        "https://case-place.ru/upload/thumbnails/small/2101150-9R10831.jpg",
+        "https://case-place.ru/upload/thumbnails/small/2101150-9R100051.jpg"
+      ]
+    },
+    {
+      "id": 39,
+      "brand": "Apple",
+      "title": "iPhone 13 Pro Max",
+      "description": "Гидрогелевая пленка на iPhone 13 Pro Max",
+      "count": 0,
+      "price": 300,
+      "category": "чехлы",
+      "subCategory": "ЧЕХЛЫ КНИЖКИ",
+      "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/07/070ed2266b8f319dcd0c41c1724c2a9a.png.webp",
+      "image": [
+        "https://case-place.ru/upload/thumbnails/small/th_653669563832028370402.png",
+        "https://case-place.ru/upload/thumbnails/small/6ea6c4af51d8e40bb28f5a7ff686f344.jpg",
+        "https://case-place.ru/upload/thumbnails/small/cb2de64861db9ebdbe01712a297ced65.jpg"
+      ]
+    },
+    {
+      "id": 40,
+      "brand": "Apple",
+      "title": "iPhone 13 Pro Max",
+      "description": "Силиконовый чехол Окрас леопарда фон на iPhone 13 Pro Max",
+      "count": 0,
+      "price": 300,
+      "category": "чехлы",
+      "subCategory": "ЧЕХЛЫ КНИЖКИ",
+      "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/07/070ed2266b8f319dcd0c41c1724c2a9a.png.webp",
+      "image": [
+        "https://case-place.ru/upload/thumbnails/small/6ea6c4af51d8e40bb28f5a7ff686f344.jpg",
+        "https://case-place.ru/upload/thumbnails/small/th_653669563832028370402.png",
+        "https://case-place.ru/upload/thumbnails/small/cb2de64861db9ebdbe01712a297ced65.jpg"
+      ]
+    },
+    {
+      "id": 41,
+      "brand": "Apple",
+      "title": "iPhone 13 Pro Max",
+      "description": "Силиконовый чехол Узор из стрекоз на iPhone 13 Pro Max",
+      "count": 0,
+      "price": 300,
+      "category": "чехлы",
+      "subCategory": "ЧЕХЛЫ КНИЖКИ",
+      "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/07/070ed2266b8f319dcd0c41c1724c2a9a.png.webp",
+      "image": [
+        "https://case-place.ru/upload/thumbnails/small/cb2de64861db9ebdbe01712a297ced65.jpg",
+        "https://case-place.ru/upload/thumbnails/small/6ea6c4af51d8e40bb28f5a7ff686f344.jpg",
+        "https://case-place.ru/upload/thumbnails/small/th_653669563832028370402.png"
+      ]
+    },
+    {
+      "id": 42,
+      "brand": "Xiaomi",
+      "title": "Redmi 11 Prime",
+      "description": "Силиконовый чехол Красочный бульдог на Redmi 11 Prime",
+      "count": 0,
+      "price": 450,
+      "category": "чехлы",
+      "subCategory": "ЖИДКИЕ НЕОНОВЫЕ ЧЕХЛЫ",
+      "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/50/50aad0c6ca99b259ceae2b87aeac133c.png.webp",
+      "image": [
+        "https://case-place.ru/upload/thumbnails/small/cdec8622a3c422c157e4ea8caf196649.jpg",
+        "https://case-place.ru/upload/thumbnails/small/d98aad0e87f3723a3c689e1e8f33e811.jpg",
+        "https://case-place.ru/upload/thumbnails/small/th_436604840266829250546.png"
+      ]
+    },
+    {
+      "id": 43,
+      "brand": "Xiaomi",
+      "title": "Redmi 11 Prime",
+      "description": "Силиконовый чехол Пионы в букете на Redmi 11 Prime",
+      "count": 0,
+      "price": 450,
+      "category": "чехлы",
+      "subCategory": "ЖИДКИЕ НЕОНОВЫЕ ЧЕХЛЫ",
+      "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/50/50aad0c6ca99b259ceae2b87aeac133c.png.webp",
+      "image": [
+        "https://case-place.ru/upload/thumbnails/small/d98aad0e87f3723a3c689e1e8f33e811.jpg",
+        "https://case-place.ru/upload/thumbnails/small/cdec8622a3c422c157e4ea8caf196649.jpg",
+        "https://case-place.ru/upload/thumbnails/small/th_436604840266829250546.png"
+      ]
+    },
+    {
+      "id": 44,
+      "brand": "Xiaomi",
+      "title": "Redmi 11 Prime",
+      "description": "Гидрогелевая пленка на Xiaomi Redmi 11 Prime 4G",
+      "count": 0,
+      "price": 450,
+      "category": "чехлы",
+      "subCategory": "ЖИДКИЕ НЕОНОВЫЕ ЧЕХЛЫ",
+      "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/50/50aad0c6ca99b259ceae2b87aeac133c.png.webp",
+      "image": [
+        "https://case-place.ru/upload/thumbnails/small/0214784f49aa6a8403c10c2e5bcfb58a.jpg",
+        "https://case-place.ru/upload/thumbnails/small/d98aad0e87f3723a3c689e1e8f33e811.jpg",
+        "https://case-place.ru/upload/thumbnails/small/cdec8622a3c422c157e4ea8caf196649.jpg"
+      ]
+    },
+    {
+      "id": 45,
+      "brand": "Xiaomi",
+      "title": " Redmi A1 Plus",
+      "description": "Силиконовый чехол Динозавр Раптор на Redmi A1 Plus",
+      "count": 0,
+      "price": 660,
+      "category": "чехлы",
+      "subCategory": "ЧЕХЛЫ КНИЖКИ",
+      "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/50/50aad0c6ca99b259ceae2b87aeac133c.png.webp",
+      "image": [
+        "https://case-place.ru/upload/thumbnails/small/f862251904ba9b4cae54c8ea69379732.jpg",
+        "https://case-place.ru/upload/thumbnails/small/d98aad0e87f3723a3c689e1e8f33e811.jpg",
+        "https://case-place.ru/upload/thumbnails/small/316785-9B40974.jpg",
+        "https://case-place.ru/upload/thumbnails/small/b6e51ec7a01af16316810085b589a748.jpg"
+      ]
+    },
+    {
+      "id": 46,
+      "brand": "Xiaomi",
+      "title": " Redmi A1 Plus",
+      "description": "Чехол-книжка Нежные магнолии на Redmi A1 Plus",
+      "count": 0,
+      "price": 660,
+      "category": "чехлы",
+      "subCategory": "ЧЕХЛЫ КНИЖКИ",
+      "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/50/50aad0c6ca99b259ceae2b87aeac133c.png.webp",
+      "image": [
+        "https://case-place.ru/upload/thumbnails/small/316785-9B40974.jpg",
+        "https://case-place.ru/upload/thumbnails/small/f862251904ba9b4cae54c8ea69379732.jpg",
+        "https://case-place.ru/upload/thumbnails/small/d98aad0e87f3723a3c689e1e8f33e811.jpg",
+        "https://case-place.ru/upload/thumbnails/small/b6e51ec7a01af16316810085b589a748.jpg"
+      ]
+    },
+    {
+      "id": 47,
+      "brand": "Xiaomi",
+      "title": " Redmi A1 Plus",
+      "description": "Силиконовый чехол Зайчонок с фонарем на Redmi A1 Plus",
+      "count": 0,
+      "price": 660,
+      "category": "чехлы",
+      "subCategory": "ЧЕХЛЫ КНИЖКИ",
+      "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/50/50aad0c6ca99b259ceae2b87aeac133c.png.webp",
+      "image": [
+        "https://case-place.ru/upload/thumbnails/small/b6e51ec7a01af16316810085b589a748.jpg",
+        "https://case-place.ru/upload/thumbnails/small/316785-9B40974.jpg",
+        "https://case-place.ru/upload/thumbnails/small/f862251904ba9b4cae54c8ea69379732.jpg"
+      ]
+    },
+    {
+      "id": 48,
+      "brand": "Xiaomi",
+      "title": " Redmi Note 12 5G",
+      "description": "Силиконовый чехол Мороженое на пляже на Redmi Note 12 5G",
+      "count": 0,
+      "price": 660,
+      "category": "чехлы",
+      "subCategory": "СИЛИКОНОВЫЕ ЧЕХЛЫ",
+      "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/50/50aad0c6ca99b259ceae2b87aeac133c.png.webp",
+      "image": [
+        "https://case-place.ru/upload/thumbnails/small/8600f94e21623941da7dbb1f329dc9cd.jpg",
+        "https://case-place.ru/upload/thumbnails/small/8c20b5e364c7396f0bafe28fdcfc96f5.jpg",
+        "https://case-place.ru/upload/thumbnails/small/a2dba7c281eced48127857f4c3666cb0.jpg"
+      ]
+    },
+    {
+      "id": 49,
+      "brand": "Xiaomi",
+      "title": " Redmi Note 12 5G",
+      "description": "Силиконовый чехол Вкус нового дня на Redmi Note 12 5G",
+      "count": 0,
+      "price": 660,
+      "category": "чехлы",
+      "subCategory": "СИЛИКОНОВЫЕ ЧЕХЛЫ",
+      "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/50/50aad0c6ca99b259ceae2b87aeac133c.png.webp",
+      "image": [
+        "https://case-place.ru/upload/thumbnails/small/a2dba7c281eced48127857f4c3666cb0.jpg",
+        "https://case-place.ru/upload/thumbnails/small/8600f94e21623941da7dbb1f329dc9cd.jpg",
+        "https://case-place.ru/upload/thumbnails/small/8c20b5e364c7396f0bafe28fdcfc96f5.jpg"
+      ]
+    },
+    {
+      "id": 50,
+      "brand": "Xiaomi",
+      "title": " Redmi Note 12 5G",
+      "description": "Силиконовый чехол Мороженое на пляже на Redmi Note 12 5G",
+      "count": 0,
+      "price": 660,
+      "category": "чехлы",
+      "subCategory": "СИЛИКОНОВЫЕ ЧЕХЛЫ",
+      "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/50/50aad0c6ca99b259ceae2b87aeac133c.png.webp",
+      "image": [
+        "https://case-place.ru/upload/thumbnails/small/8600f94e21623941da7dbb1f329dc9cd.jpg",
+        "https://case-place.ru/upload/thumbnails/small/a2dba7c281eced48127857f4c3666cb0.jpg",
+        "https://case-place.ru/upload/thumbnails/small/8c20b5e364c7396f0bafe28fdcfc96f5.jpg"
+      ]
+    },
+    {
+      "id": 51,
+      "brand": "Xiaomi",
+      "title": " Redmi Note 12 Pro",
+      "description": "Силиконовый чехол Мишка с сердцем 2 на Redmi Note 12 Pro",
+      "count": 0,
+      "price": 660,
+      "category": "чехлы",
+      "subCategory": "ПРОТИВОУДАРНЫЕ ЧЕХЛЫ",
+      "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/50/50aad0c6ca99b259ceae2b87aeac133c.png.webp",
+      "image": [
+        "https://case-place.ru/upload/thumbnails/small/34db55ad79249ffcd45c6352bc99dea9.jpg",
+        "https://case-place.ru/upload/thumbnails/small/baf2e4bc008f4d1d80429db9397582bc.jpg",
+        "https://case-place.ru/upload/thumbnails/small/f9107cd2b1a3a2d1c561a509107bcbeb.jpg"
+      ]
+    },
+    {
+      "id": 52,
+      "brand": "Xiaomi",
+      "title": " Redmi Note 12 Pro",
+      "description": "Силиконовый чехол Марат на Redmi Note 12 Pro",
+      "count": 0,
+      "price": 700,
+      "category": "чехлы",
+      "subCategory": "ПРОТИВОУДАРНЫЕ ЧЕХЛЫ",
+      "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/50/50aad0c6ca99b259ceae2b87aeac133c.png.webp",
+      "image": [
+        "https://case-place.ru/upload/thumbnails/small/baf2e4bc008f4d1d80429db9397582bc.jpg",
+        "https://case-place.ru/upload/thumbnails/small/34db55ad79249ffcd45c6352bc99dea9.jpg",
+        "https://case-place.ru/upload/thumbnails/small/f9107cd2b1a3a2d1c561a509107bcbeb.jpg"
+      ]
+    },
+    {
+      "id": 53,
+      "brand": "Xiaomi",
+      "title": " Redmi Note 12 Pro",
+      "description": "Силиконовый чехол Everyone love cats на Redmi Note 12 Pro",
+      "count": 0,
+      "price": 700,
+      "category": "чехлы",
+      "subCategory": "ПРОТИВОУДАРНЫЕ ЧЕХЛЫ",
+      "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/50/50aad0c6ca99b259ceae2b87aeac133c.png.webp",
+      "image": [
+        "https://case-place.ru/upload/thumbnails/small/f9107cd2b1a3a2d1c561a509107bcbeb.jpg",
+        "https://case-place.ru/upload/thumbnails/small/baf2e4bc008f4d1d80429db9397582bc.jpg",
+        "https://case-place.ru/upload/thumbnails/small/34db55ad79249ffcd45c6352bc99dea9.jpg"
+      ]
+    },
+    {
+      "id": 54,
+      "brand": "Xiaomi",
+      "title": "Xiaomi Black Shark 4S",
+      "description": "Силиконовый чехол Космический Нью-Йорк на Xiaomi Black Shark 4S",
+      "count": 0,
+      "price": 700,
+      "category": "чехлы",
+      "subCategory": "ЧЕХЛЫ PREMIUM",
+      "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/50/50aad0c6ca99b259ceae2b87aeac133c.png.webp",
+      "image": [
+        "https://case-place.ru/upload/thumbnails/small/e76e4b8724c923ea00010c643a119a05.jpg",
+        "https://case-place.ru/upload/thumbnails/small/0dd3cef977a86ecfbf34eb6e4b50108d.jpg",
+        "https://case-place.ru/upload/thumbnails/small/9fd4feb3258cc48340703f9d51946d75.jpg"
+      ]
+    },
+    {
+      "id": 55,
+      "brand": "Xiaomi",
+      "title": "Xiaomi Black Shark 4S",
+      "description": "Силиконовый чехол Пятнышки на Xiaomi Black Shark 4S",
+      "count": 0,
+      "price": 700,
+      "category": "чехлы",
+      "subCategory": "ЧЕХЛЫ PREMIUM",
+      "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/50/50aad0c6ca99b259ceae2b87aeac133c.png.webp",
+      "image": [
+        "https://case-place.ru/upload/thumbnails/small/0dd3cef977a86ecfbf34eb6e4b50108d.jpg",
+        "https://case-place.ru/upload/thumbnails/small/e76e4b8724c923ea00010c643a119a05.jpg",
+        "https://case-place.ru/upload/thumbnails/small/9fd4feb3258cc48340703f9d51946d75.jpg"
+      ]
+    },
+    {
+      "id": 56,
+      "brand": "Xiaomi",
+      "title": "Xiaomi Black Shark 4S",
+      "description": "Силиконовый чехол Лось в орнаменте на Xiaomi Black Shark 4S",
+      "count": 0,
+      "price": 700,
+      "category": "чехлы",
+      "subCategory": "ЧЕХЛЫ PREMIUM",
+      "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/50/50aad0c6ca99b259ceae2b87aeac133c.png.webp",
+      "image": [
+        "https://case-place.ru/upload/thumbnails/small/9fd4feb3258cc48340703f9d51946d75.jpg",
+        "https://case-place.ru/upload/thumbnails/small/0dd3cef977a86ecfbf34eb6e4b50108d.jpg",
+        "https://case-place.ru/upload/thumbnails/small/e76e4b8724c923ea00010c643a119a05.jpg"
+      ]
+    },
+    {
+      "id": 57,
+      "brand": "Xiaomi",
+      "title": "Xiaomi Mi 10 Lite",
+      "description": "Силиконовый чехол Ежик с узелком на Xiaomi Mi 10 Lite",
+      "count": 0,
+      "price": 880,
+      "category": "чехлы",
+      "subCategory": "ПЛАСТИКОВЫЕ ЧЕХЛЫ",
+      "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/50/50aad0c6ca99b259ceae2b87aeac133c.png.webp",
+      "image": [
+        "https://case-place.ru/upload/thumbnails/small/38550-9R13755.jpg",
+        "https://case-place.ru/upload/thumbnails/small/38550-9R99712.jpg",
+        "https://case-place.ru/upload/thumbnails/small/38550-9R100652.jpg"
+      ]
+    },
+    {
+      "id": 58,
+      "brand": "Xiaomi",
+      "title": "Xiaomi Mi 10 Lite",
+      "description": "Силиконовый чехол Lacoste полосатое поло 3 на Xiaomi Mi 10 Lite",
+      "count": 0,
+      "price": 880,
+      "category": "чехлы",
+      "subCategory": "ПЛАСТИКОВЫЕ ЧЕХЛЫ",
+      "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/50/50aad0c6ca99b259ceae2b87aeac133c.png.webp",
+      "image": [
+        "https://case-place.ru/upload/thumbnails/small/38550-9R99712.jpg",
+        "https://case-place.ru/upload/thumbnails/small/38550-9R13755.jpg",
+        "https://case-place.ru/upload/thumbnails/small/38550-9R100652.jpg"
+      ]
+    },
+    {
+      "id": 59,
+      "brand": "Xiaomi",
+      "title": "Xiaomi Mi 10 Lite",
+      "description": "Силиконовый чехол Джинн на Xiaomi Mi 10 Lite",
+      "count": 0,
+      "price": 880,
+      "category": "чехлы",
+      "subCategory": "ПЛАСТИКОВЫЕ ЧЕХЛЫ",
+      "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/50/50aad0c6ca99b259ceae2b87aeac133c.png.webp",
+      "image": [
+        "https://case-place.ru/upload/thumbnails/small/38550-9R100652.jpg",
+        "https://case-place.ru/upload/thumbnails/small/38550-9R99712.jpg",
+        "https://case-place.ru/upload/thumbnails/small/38550-9R13755.jpg"
+      ]
+    },
+    {
+      "id": 60,
+      "brand": "Xiaomi",
+      "title": "Xiaomi Mi 11 Lite",
+      "description": "Силиконовый чехол Фантастические волки на Xiaomi Mi 11 Lite",
+      "count": 0,
+      "price": 880,
+      "category": "чехлы",
+      "subCategory": "ПРОТИВОУДАРНЫЕ ЧЕХЛЫ",
+      "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/50/50aad0c6ca99b259ceae2b87aeac133c.png.webp",
+      "image": [
+        "https://case-place.ru/upload/thumbnails/small/a0f51338a1c082acaa07e5c868e3ea41.jpg",
+        "https://case-place.ru/upload/thumbnails/small/0214784f49aa6a8403c10c2e5bcfb58a.jpg",
+        "https://case-place.ru/upload/thumbnails/small/83e2a12b69266e41a1d3ac7d50dae4f2.jpg"
+      ]
+    },
+    {
+      "id": 61,
+      "brand": "Xiaomi",
+      "title": "Xiaomi Mi 11 Lite",
+      "description": "Силиконовый чехол Гарфилд на диване на Xiaomi Mi 11 Lite",
+      "count": 0,
+      "price": 880,
+      "category": "чехлы",
+      "subCategory": "ПРОТИВОУДАРНЫЕ ЧЕХЛЫ",
+      "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/50/50aad0c6ca99b259ceae2b87aeac133c.png.webp",
+      "image": [
+        "https://case-place.ru/upload/thumbnails/small/0214784f49aa6a8403c10c2e5bcfb58a.jpg",
+        "https://case-place.ru/upload/thumbnails/small/a0f51338a1c082acaa07e5c868e3ea41.jpg",
+        "https://case-place.ru/upload/thumbnails/small/83e2a12b69266e41a1d3ac7d50dae4f2.jpg"
+      ]
+    },
+    {
+      "id": 62,
+      "brand": "Xiaomi",
+      "title": "Xiaomi Mi 11 Lite",
+      "description": "Силиконовый чехол Гарри Поттер на Xiaomi Mi 11 Lite",
+      "count": 0,
+      "price": 880,
+      "category": "чехлы",
+      "subCategory": "ПРОТИВОУДАРНЫЕ ЧЕХЛЫ",
+      "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/50/50aad0c6ca99b259ceae2b87aeac133c.png.webp",
+      "image": [
+        "https://case-place.ru/upload/thumbnails/small/83e2a12b69266e41a1d3ac7d50dae4f2.jpg",
+        "https://case-place.ru/upload/thumbnails/small/0214784f49aa6a8403c10c2e5bcfb58a.jpg",
+        "https://case-place.ru/upload/thumbnails/small/a0f51338a1c082acaa07e5c868e3ea41.jpg"
+      ]
+    },
+    {
+      "id": 63,
+      "brand": "Honor",
       "title": "iphone 11pro",
       "description": "для каждого любителя",
+      "count": 0,
       "price": 300,
-      "category": "чехлы" ,
-      "subCategory": "ЧЕХЛЫ КНИЖКИ" ,
+      "category": "чехлы",
+      "subCategory": "ЧЕХЛЫ КНИЖКИ",
       "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/71/7195fe1c0332d289b91adc6a20a9c6d9.png.webp",
       "image": [
         "https://case-place.ru/core/assets/thumbnails/71/7195fe1c0332d289b91adc6a20a9c6d9.png.webp",
         "../assets/image/iphone.JPG",
         "../assets/image/iphone.JPG"
       ]
-    },{
-      "id": 5,
-      "brand": "huawei",
-      "title": "iphone 11pro",
-      "description": "для каждого любителя",
+    },
+    {
+      "id": 64,
+      "brand": "Huawei",
+      "title": "Honor 10X Lite",
+      "description": "Силиконовый чехол Зеленоглазый чеширский кот на Honor 10X Lite",
+      "count": 0,
       "price": 300,
-      "category": "чехлы" ,
-      "subCategory": "ЖИДКИЕ ЧЕХЛЫ С БЛЕСТКАМИ" ,
+      "category": "чехлы",
+      "subCategory": "ЖИДКИЕ ЧЕХЛЫ С БЛЕСТКАМИ",
       "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/45/45df2bdab5875f8f0602a1e344e1f15b.png.webp",
       "image": [
-        "../assets/image/iphone.JPG",
-        "../assets/image/iphone.JPG",
-        "../assets/image/iphone.JPG"
+        "https://case-place.ru/upload/thumbnails/small/789036d6eec0f5f64d55a6e1e8cf7d99.jpg",
+        "https://case-place.ru/upload/thumbnails/small/6104650-9R10941.jpg",
+        "https://case-place.ru/upload/thumbnails/small/27af4b9a718a2a691a46bc88079b9128.jpg"
       ]
-    },{
-      "id": 6,
-      "brand": "apple",
-      "title": "iphone 11pro",
-      "description": "для каждого любителя",
+    },
+    {
+      "id": 65,
+      "brand": "Apple",
+      "title": "iPhone 7 Plus",
+      "description": "Силиконовый чехол Большеглазая панда на iPhone 7 Plus",
+      "count": 0,
       "price": 300,
-      "category": "чехлы" ,
-      "subCategory": "МАТОВЫЕ СИЛИКОНОВЫЕ ЧЕХЛЫ" ,
-      "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/07/070ed2266b8f319dcd0c41c1724c2a9a.png.webp",
+      "category": "чехлы",
+      "subCategory": "СИЛИКОНОВЫЕ ЧЕХЛЫ",
+      "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/0e/0ea82e0d7f058be7a31c9aa256d9cdb9.png.webp",
       "image": [
-        "../assets/image/iphone.JPG",
-        "../assets/image/iphone.JPG",
-        "../assets/image/iphone.JPG"
+        "https://case-place.ru/upload/thumbnails/small/10731-9H70000.png",
+        "https://case-place.ru/upload/thumbnails/small/10750-9R12.jpg",
+        "https://case-place.ru/upload/thumbnails/small/10794-9G000.jpg"
       ]
-    },{
-      "id": 7,
-      "brand": "samsung",
-      "title": "iphone 11pro",
-      "description": "для каждого любителя",
+    },
+    {
+      "id": 66,
+      "brand": "Apple",
+      "title": "iPhone 7 Plus",
+      "description": "Жидкий чехол с блестками без принта на iPhone 7 Plus",
+      "count": 0,
       "price": 300,
-      "category": "чехлы" ,
-      "subCategory": "ПРОТИВОУДАРНЫЕ ЧЕХЛЫ" ,
-      "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/5b/5b45d1663cd46d57d9340a10be9620cc.png.webp",
+      "category": "чехлы",
+      "subCategory": "СИЛИКОНОВЫЕ ЧЕХЛЫ",
+      "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/0e/0ea82e0d7f058be7a31c9aa256d9cdb9.png.webp",
       "image": [
-        "../assets/image/iphone.JPG",
-        "../assets/image/iphone.JPG",
-        "../assets/image/iphone.JPG"
+        "https://case-place.ru/upload/thumbnails/small/10731-9H70000.png",
+        "https://case-place.ru/upload/thumbnails/small/10750-9R12.jpg",
+        "https://case-place.ru/upload/thumbnails/small/10794-9G000.jpg"
       ]
-    },{
-      "id": 8,
-      "brand": "xiaomi",
-      "title": "iphone 11pro",
-      "description": "для каждого любителя",
+    },
+    {
+      "id": 67,
+      "brand": "Apple",
+      "title": "iPhone 7 Plus",
+      "description": "Силиконовый чехол Supreme сердечки фон на iPhone 7 Plus",
+      "count": 0,
       "price": 300,
-      "category": "чехлы" ,
-      "subCategory": "ЖИДКИЕ НЕОНОВЫЕ ЧЕХЛЫ" ,
-      "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/50/50aad0c6ca99b259ceae2b87aeac133c.png.webp",
+      "category": "чехлы",
+      "subCategory": "СИЛИКОНОВЫЕ ЧЕХЛЫ",
+      "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/0e/0ea82e0d7f058be7a31c9aa256d9cdb9.png.webp",
       "image": [
-        "../assets/image/iphone.JPG",
-        "../assets/image/iphone.JPG",
-        "../assets/image/iphone.JPG"
+        "https://case-place.ru/upload/thumbnails/small/10794-9G000.jpg",
+        "https://case-place.ru/upload/thumbnails/small/10731-9H70000.png",
+        "https://case-place.ru/upload/thumbnails/small/10750-9R12.jpg"
       ]
-    },{
-      "id": 9,
-      "brand": "honor",
-      "title": "iphone 11pro",
-      "description": "для каждого любителя",
+    },
+    {
+      "id": 68,
+      "brand": "Apple",
+      "title": "iPhone 7 Plus/8 Plus",
+      "description": "Силиконовый красный чехол Soft Touch для iPhone 7 Plus/8 Plus",
+      "count": 0,
       "price": 300,
-      "category": "чехлы" ,
-      "subCategory": "ЭКО\nЧЕХЛЫ" ,
-      "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/cb/cbdfc7c2318e3648bc7f36019a858dea.png.webp",
+      "category": "чехлы",
+      "subCategory": "СИЛИКОНОВЫЕ ЧЕХЛЫ",
+      "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/0e/0ea82e0d7f058be7a31c9aa256d9cdb9.png.webp",
       "image": [
-        "../assets/image/iphone.JPG",
-        "../assets/image/iphone.JPG",
-        "../assets/image/iphone.JPG"
+        "https://case-place.ru/upload/thumbnails/small/th_sst-107r (1).png",
+        "https://case-place.ru/upload/thumbnails/small/10731-9H70000.png",
+        "https://case-place.ru/upload/thumbnails/small/10750-9R12.jpg"
       ]
-    },{
-      "id": 10,
-      "brand": "apple",
-      "title": "iphone 11pro",
-      "description": "для каждого любителя",
-      "price": 300,
-      "category": "чехлы" ,
-      "subCategory": "ЧЕХЛЫ ДЛЯ AIRPODS" ,
-      "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/58/58846a497dd89a410c8e97c64cb03f16.png.webp",
+    },
+    {
+      "id": 69,
+      "brand": "Apple",
+      "title": "iPhone 7 Plus/8 Plus",
+      "description": "Силиконовый чехол Пионы new на iPhone 7 Plus",
+      "count": 0,
+      "price": 450,
+      "category": "чехлы",
+      "subCategory": "СИЛИКОНОВЫЕ ЧЕХЛЫ",
+      "subCategoryImg": "https://case-place.ru/upload/thumbnails/small/10750-9R102.jpg",
       "image": [
-        "../assets/image/iphone.JPG",
-        "../assets/image/iphone.JPG",
-        "../assets/image/iphone.JPG"
+        "https://case-place.ru/upload/thumbnails/small/th_sst-107r (1).png",
+        "https://case-place.ru/upload/thumbnails/small/10731-9H70000.png",
+        "https://case-place.ru/upload/thumbnails/small/10750-9R12.jpg"
       ]
-    },{
-      "id": 11,
-      "brand": "huawei",
-      "title": "iphone 11pro",
-      "description": "для каждого любителя",
-      "price": 300,
-      "category": "чехлы" ,
-      "subCategory": "СТЕКЛА" ,
-      "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/5a/5ae1b1e801f04e087caa5f8c8a96350a.png.webp",
+    },
+    {
+      "id": 70,
+      "brand": "Apple",
+      "title": "iPhone 11",
+      "description": "Силиконовый чехол Морозная лавина серая на iPhone 11",
+      "count": 0,
+      "price": 699,
+      "category": "чехлы",
+      "subCategory": "ЖИДКИЕ ЧЕХЛЫ С БЛЕСТКАМИ",
+      "subCategoryImg": "https://case-place.ru/upload/thumbnails/small/10750-9R102.jpg",
       "image": [
-        "../assets/image/iphone.JPG",
-        "../assets/image/iphone.JPG",
-        "../assets/image/iphone.JPG"
+        "https://case-place.ru/upload/thumbnails/small/12150-9R60068.jpg",
+        "https://case-place.ru/upload/thumbnails/small/12157-9V000.jpg",
+        "https://case-place.ru/upload/thumbnails/small/12150-9V16870.jpg"
       ]
-    },{
-      "id": 12,
-      "brand": "apple",
-      "title": "iphone 11pro",
-      "description": "для каждого любителя",
-      "price": 300,
-      "category": "чехлы" ,
-      "subCategory": "АККУМУЛЯТОРЫ" ,
-      "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/72/72fbde7b1d08862fb52a3379b28c8868.png.webp",
+    },
+    {
+      "id": 71,
+      "brand": "Apple",
+      "title": "iPhone 11",
+      "description": "Матовый силиконовый чехол без принта на iPhone 11",
+      "count": 0,
+      "price": 699,
+      "category": "чехлы",
+      "subCategory": "ЖИДКИЕ ЧЕХЛЫ С БЛЕСТКАМИ",
+      "subCategoryImg": "https://case-place.ru/upload/thumbnails/small/10750-9R102.jpg",
       "image": [
-        "../assets/image/iphone.JPG",
-        "../assets/image/iphone.JPG",
-        "../assets/image/iphone.JPG"
+        "https://case-place.ru/upload/thumbnails/small/12157-9V000.jpg",
+        "https://case-place.ru/upload/thumbnails/small/12150-9R60068.jpg",
+        "https://case-place.ru/upload/thumbnails/small/12150-9V16870.jpg"
       ]
-    },{
-      "id": 13,
-      "brand": "apple",
-      "title": "iphone 11pro",
-      "description": "для каждого любителя",
-      "price": 300,
-      "category": "чехлы" ,
-      "subCategory": "АККУМУЛЯТОРЫ" ,
-      "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/72/72fbde7b1d08862fb52a3379b28c8868.png.webp",
+    },
+    {
+      "id": 72,
+      "brand": "Apple",
+      "title": "iPhone 11",
+      "description": "Силиконовый серо-синий чехол Soft Touch для iPhone 11",
+      "count": 0,
+      "price": 699,
+      "category": "чехлы",
+      "subCategory": "ЖИДКИЕ ЧЕХЛЫ С БЛЕСТКАМИ",
+      "subCategoryImg": "https://case-place.ru/upload/thumbnails/small/10750-9R102.jpg",
       "image": [
-        "../assets/image/iphone.JPG",
-        "../assets/image/iphone.JPG",
-        "../assets/image/iphone.JPG"
+        "https://case-place.ru/upload/thumbnails/small/12150-9V16870.jpg",
+        "https://case-place.ru/upload/thumbnails/small/12157-9V000.jpg",
+        "https://case-place.ru/upload/thumbnails/small/12150-9R60068.jpg"
       ]
-    },{
-      "id": 14,
-      "brand": "apple",
-      "title": "iphone 11pro",
-      "description": "для каждого любителя",
-      "price": 300,
-      "category": "чехлы" ,
-      "subCategory": "АККУМУЛЯТОРЫ" ,
-      "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/72/72fbde7b1d08862fb52a3379b28c8868.png.webp",
+    },
+    {
+      "id": 88,
+      "brand": "Apple",
+      "title": "iPhone 11",
+      "description": "Силиконовый чехол Арнольд Шварцнеггер с базукой на iPhone 11",
+      "count": 0,
+      "price": 699,
+      "category": "чехлы",
+      "subCategory": "ЖИДКИЕ ЧЕХЛЫ С БЛЕСТКАМИ",
+      "subCategoryImg": "https://case-place.ru/upload/thumbnails/small/10750-9R102.jpg",
       "image": [
-        "../assets/image/iphone.JPG",
-        "../assets/image/iphone.JPG",
-        "../assets/image/iphone.JPG"
+        "https://case-place.ru/upload/thumbnails/small/12150-9R99932.jpg",
+        "https://case-place.ru/upload/thumbnails/small/12157-9V000.jpg",
+        "https://case-place.ru/upload/thumbnails/small/12150-9R60068.jpg"
       ]
-    },{
-      "id": 15,
-      "brand": "apple",
-      "title": "iphone 11pro",
-      "description": "для каждого любителя",
-      "price": 300,
-      "category": "чехлы" ,
-      "subCategory": "АККУМУЛЯТОРЫ" ,
-      "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/72/72fbde7b1d08862fb52a3379b28c8868.png.webp",
+    },
+    {
+      "id": 73,
+      "brand": "Apple",
+      "title": "iPhone 11",
+      "description": "Силиконовый чехол Акварель на iPhone 11",
+      "count": 0,
+      "price": 699,
+      "category": "чехлы",
+      "subCategory": "ЖИДКИЕ ЧЕХЛЫ С БЛЕСТКАМИ",
+      "subCategoryImg": "https://case-place.ru/upload/thumbnails/small/10750-9R102.jpg",
       "image": [
-        "../assets/image/iphone.JPG",
-        "../assets/image/iphone.JPG",
-        "../assets/image/iphone.JPG"
+        "https://case-place.ru/upload/thumbnails/small/12150-9R2.jpg",
+        "https://case-place.ru/upload/thumbnails/small/12157-9V000.jpg",
+        "https://case-place.ru/upload/thumbnails/small/12150-9R60068.jpg"
+      ]
+    },
+    {
+      "id": 74,
+      "brand": "Apple",
+      "title": "iPhone 11 Pro",
+      "description": "Силиконовый чехол Мраморный рисунок на iPhone 11 Pro ",
+      "count": 0,
+      "price": 699,
+      "category": "чехлы",
+      "subCategory": "ЧЕХЛЫ КНИЖКИ",
+      "subCategoryImg": "https://case-place.ru/upload/thumbnails/small/10750-9R102.jpg",
+      "image": [
+        "https://case-place.ru/upload/thumbnails/small/12350-9V16824.jpg",
+        "https://case-place.ru/upload/thumbnails/small/12350-9V16946.jpg",
+        "https://case-place.ru/upload/thumbnails/small/th_653669563832028370402.png"
+      ]
+    },
+    {
+      "id": 75,
+      "brand": "Apple",
+      "title": "iPhone 11 Pro",
+      "description": "Силиконовый чехол Весенний букет на iPhone 11 Pro ",
+      "count": 0,
+      "price": 699,
+      "category": "чехлы",
+      "subCategory": "ЧЕХЛЫ КНИЖКИ",
+      "subCategoryImg": "https://case-place.ru/upload/thumbnails/small/10750-9R102.jpg",
+      "image": [
+        "https://case-place.ru/upload/thumbnails/small/12350-9V16946.jpg",
+        "https://case-place.ru/upload/thumbnails/small/12350-9V16824.jpg",
+        "https://case-place.ru/upload/thumbnails/small/th_653669563832028370402.png"
+      ]
+    },
+    {
+      "id": 76,
+      "brand": "Apple",
+      "title": "iPhone 11 Pro",
+      "description": "Силиконовый чехол Цветочная пальма фон на iPhone 11 Pro ",
+      "count": 0,
+      "price": 699,
+      "category": "чехлы",
+      "subCategory": "ЧЕХЛЫ КНИЖКИ",
+      "subCategoryImg": "https://case-place.ru/upload/thumbnails/small/10750-9R102.jpg",
+      "image": [
+        "https://case-place.ru/upload/thumbnails/small/12350-9V17192.jpg",
+        "https://case-place.ru/upload/thumbnails/small/12350-9V16946.jpg",
+        "https://case-place.ru/upload/thumbnails/small/12350-9V16824.jpg"
+      ]
+    },
+    {
+      "id": 77,
+      "brand": "Apple",
+      "title": "iPhone 11 Pro",
+      "description": "Силиконовый чехол Рамка из перьев на iPhone 11 Pro ",
+      "count": 0,
+      "price": 699,
+      "category": "чехлы",
+      "subCategory": "ЧЕХЛЫ КНИЖКИ",
+      "subCategoryImg": "https://case-place.ru/upload/thumbnails/small/10750-9R102.jpg",
+      "image": [
+        "https://case-place.ru/upload/thumbnails/small/12350-9V16534.jpg",
+        "https://case-place.ru/upload/thumbnails/small/12350-9V16946.jpg",
+        "https://case-place.ru/upload/thumbnails/small/12350-9V16824.jpg"
+      ]
+    },
+    {
+      "id": 78,
+      "brand": "Apple",
+      "title": "iPhone 11 Pro",
+      "description": "Силиконовый чехол Ван Гог Звездная ночь на iPhone 11 Pro ",
+      "count": 0,
+      "price": 699,
+      "category": "чехлы",
+      "subCategory": "ЧЕХЛЫ КНИЖКИ",
+      "subCategoryImg": "https://case-place.ru/upload/thumbnails/small/10750-9R102.jpg",
+      "image": [
+        "https://case-place.ru/upload/thumbnails/small/12350-9R10550.jpg",
+        "https://case-place.ru/upload/thumbnails/small/12350-9V16946.jpg",
+        "https://case-place.ru/upload/thumbnails/small/12350-9V16824.jpg"
+      ]
+    },
+    {
+      "id": 79,
+      "brand": "Apple",
+      "title": "iPhone 12 mini",
+      "description": "Силиконовый чехол Ежик на пригорке на iPhone 12 mini",
+      "count": 0,
+      "price": 699,
+      "category": "чехлы",
+      "subCategory": "ЧЕХЛЫ PREMIUM",
+      "subCategoryImg": "https://case-place.ru/upload/thumbnails/small/10750-9R102.jpg",
+      "image": [
+        "https://case-place.ru/upload/thumbnails/small/ab21e38b206791d9d711e4f8964c4718.jpg",
+        "https://case-place.ru/upload/thumbnails/small/31368a85cc2e0cd98dc1bba909de693d.jpg",
+        "https://case-place.ru/upload/thumbnails/small/12652-9V000.jpg"
+      ]
+    },
+    {
+      "id": 80,
+      "brand": "Apple",
+      "title": "iPhone 12 mini",
+      "description": "Силиконовый чехол Созвездия на iPhone 12 mini",
+      "count": 0,
+      "price": 799,
+      "category": "чехлы",
+      "subCategory": "ЧЕХЛЫ PREMIUM",
+      "subCategoryImg": "https://case-place.ru/upload/thumbnails/small/10750-9R102.jpg",
+      "image": [
+        "https://case-place.ru/upload/thumbnails/small/31368a85cc2e0cd98dc1bba909de693d.jpg",
+        "https://case-place.ru/upload/thumbnails/small/ab21e38b206791d9d711e4f8964c4718.jpg",
+        "https://case-place.ru/upload/thumbnails/small/12652-9V000.jpg"
+      ]
+    },
+    {
+      "id": 81,
+      "brand": "Apple",
+      "title": "iPhone 12 mini",
+      "description": "Силиконовый чехол Созвездия на iPhone 12 mini",
+      "count": 0,
+      "price": 799,
+      "category": "чехлы",
+      "subCategory": "ЧЕХЛЫ PREMIUM",
+      "subCategoryImg": "https://case-place.ru/upload/thumbnails/small/10750-9R102.jpg",
+      "image": [
+        "https://case-place.ru/upload/thumbnails/small/12652-9V000.jpg",
+        "https://case-place.ru/upload/thumbnails/small/31368a85cc2e0cd98dc1bba909de693d.jpg",
+        "https://case-place.ru/upload/thumbnails/small/ab21e38b206791d9d711e4f8964c4718.jpg"
+      ]
+    },
+    {
+      "id": 82,
+      "brand": "Apple",
+      "title": "iPhone 12 mini",
+      "description": "Силиконовый чехол Кот жесть на iPhone 12 mini",
+      "count": 0,
+      "price": 799,
+      "category": "чехлы",
+      "subCategory": "ЧЕХЛЫ PREMIUM",
+      "subCategoryImg": "https://case-place.ru/upload/thumbnails/small/10750-9R102.jpg",
+      "image": [
+        "https://case-place.ru/upload/thumbnails/small/b5145d6ef2e66221a22bad259792dfae.jpg",
+        "https://case-place.ru/upload/thumbnails/small/31368a85cc2e0cd98dc1bba909de693d.jpg",
+        "https://case-place.ru/upload/thumbnails/small/ab21e38b206791d9d711e4f8964c4718.jpg"
+      ]
+    },
+    {
+      "id": 83,
+      "brand": "Apple",
+      "title": "iPhone 12 mini",
+      "description": "Силиконовый чехол Сотворение Адама на iPhone 12 mini",
+      "count": 0,
+      "price": 799,
+      "category": "чехлы",
+      "subCategory": "ЧЕХЛЫ PREMIUM",
+      "subCategoryImg": "https://case-place.ru/upload/thumbnails/small/10750-9R102.jpg",
+      "image": [
+        "https://case-place.ru/upload/thumbnails/small/a1fe6a3905db0c54126a7c2f23405641.jpg",
+        "https://case-place.ru/upload/thumbnails/small/31368a85cc2e0cd98dc1bba909de693d.jpg",
+        "https://case-place.ru/upload/thumbnails/small/ab21e38b206791d9d711e4f8964c4718.jpg"
+      ]
+    },
+    {
+      "id": 84,
+      "brand": "Apple",
+      "title": "iPhone 13 Pro",
+      "description": "Силиконовый чехол Джек Дэниэлс на iPhone 13 Pro",
+      "count": 0,
+      "price": 799,
+      "category": "чехлы",
+      "subCategory": "ПЛАСТИКОВЫЕ ЧЕХЛЫ",
+      "subCategoryImg": "https://case-place.ru/upload/thumbnails/small/10750-9R102.jpg",
+      "image": [
+        "https://case-place.ru/upload/thumbnails/small/th_sst-143c (2).png",
+        "https://case-place.ru/upload/thumbnails/small/14350-9V101028.jpg",
+        "https://case-place.ru/upload/thumbnails/small/14350-9R25.jpg"
+      ]
+    },
+    {
+      "id": 85,
+      "brand": "Apple",
+      "title": "iPhone 13 Pro",
+      "description": "Силиконовый чехол Разноцветные смайлы на iPhone 13 Pro",
+      "count": 0,
+      "price": 599,
+      "category": "чехлы",
+      "subCategory": "ПЛАСТИКОВЫЕ ЧЕХЛЫ",
+      "subCategoryImg": "https://case-place.ru/upload/thumbnails/small/10750-9R102.jpg",
+      "image": [
+        "https://case-place.ru/upload/thumbnails/small/14350-9V101028.jpg",
+        "https://case-place.ru/upload/thumbnails/small/th_sst-143c (2).png",
+        "https://case-place.ru/upload/thumbnails/small/14350-9R25.jpg"
+      ]
+    },
+    {
+      "id": 86,
+      "brand": "Apple",
+      "title": "iPhone 13 Pro",
+      "description": "Матовый силиконовый чехол Совет свой себе посоветуй на iPhone 13 Pro",
+      "count": 0,
+      "price": 599,
+      "category": "чехлы",
+      "subCategory": "ПЛАСТИКОВЫЕ ЧЕХЛЫ",
+      "subCategoryImg": "https://case-place.ru/upload/thumbnails/small/10750-9R102.jpg",
+      "image": [
+        "https://case-place.ru/upload/thumbnails/small/14350-9R25.jpg",
+        "https://case-place.ru/upload/thumbnails/small/14350-9V101028.jpg",
+        "https://case-place.ru/upload/thumbnails/small/th_sst-143c (2).png"
+      ]
+    },
+    {
+      "id": 87,
+      "brand": "Apple",
+      "title": "iPhone 13 Pro",
+      "description": "Силиконовый чехол Розы графика на iPhone 13 Pro",
+      "count": 0,
+      "price": 599,
+      "category": "чехлы",
+      "subCategory": "ПЛАСТИКОВЫЕ ЧЕХЛЫ",
+      "subCategoryImg": "https://case-place.ru/upload/thumbnails/small/10750-9R102.jpg",
+      "image": [
+        "https://case-place.ru/upload/thumbnails/small/14350-9V17179.jpg",
+        "https://case-place.ru/upload/thumbnails/small/14350-9V101028.jpg",
+        "https://case-place.ru/upload/thumbnails/small/th_sst-143c (2).png"
+      ]
+    },
+    {
+      "id": 89,
+      "brand": "Apple",
+      "title": "iPhone 13 Pro",
+      "description": "Силиконовый чехол Загрузка творения на iPhone 13 Pro",
+      "count": 0,
+      "price": 599,
+      "category": "чехлы",
+      "subCategory": "ПЛАСТИКОВЫЕ ЧЕХЛЫ",
+      "subCategoryImg": "https://case-place.ru/upload/thumbnails/small/10750-9R102.jpg",
+      "image": [
+        "https://case-place.ru/upload/thumbnails/small/14350-9V100778.jpg",
+        "https://case-place.ru/upload/thumbnails/small/14350-9V101028.jpg",
+        "https://case-place.ru/upload/thumbnails/small/th_sst-143c (2).png"
       ]
     }
   ],
   "commit": [
     {
       "id": 1,
-      "post": "",
+      "image": "https://case-place.ru/upload/thumb/thumbnails/fotoOtzivy/fe442f3b-5eb1-4a63-917a-81a0802aab45j710_1200x0.jpg",
       "user": "askar",
-      "text": "goode like"
-    }
-  ],
-  "category": [
-    {
-      "id": 1,
-      "title": "ПЛАСТИКОВЫЕ ЧЕХЛЫ",
-      "image": "https://case-place.ru/core/assets/thumbnails/0e/0ea82e0d7f058be7a31c9aa256d9cdb9.png.webp"
+      "text": "goode \nОчень классная штука!) Довольна!) Комплект полный"
     },
     {
       "id": 2,
-      "title": "СИЛИКОНОВЫЕ ЧЕХЛЫ",
-      "image": "https://case-place.ru/core/assets/thumbnails/2f/2f68b10ef45ba8c2db5c4c2ada5ed056.png.webp"
+      "image": "https://case-place.ru/upload/thumb/thumbnails/fotoOtzivy/11-11-2021%2013-54-59j225_1200x0.jpg",
+      "user": "askar",
+      "text": "Хорошая штука, держится отлично. Использую уже больше месяца, очень удобно"
     },
     {
       "id": 3,
-      "title": "ЧЕХЛЫ PREMIUM",
-      "image": "https://case-place.ru/core/assets/thumbnails/12/1286f53913a83681fe16bfb70a7bc447.png.webp"
+      "image": "https://case-place.ru/upload/thumb/thumbnails/fotoOtzivy/11-11-2021%2013-52-33jd76_1200x0.jpg",
+      "user": "askar",
+      "text": "goode ПонравилсяКрасивый. Еще на прочность не смотрела ,купила на запас"
     },
     {
       "id": 4,
-      "title": "ЧЕХЛЫ КНИЖКИ",
-      "image": "https://case-place.ru/core/assets/thumbnails/71/7195fe1c0332d289b91adc6a20a9c6d9.png.webp"
-    },
-    {
-      "id": 5,
-      "title": "ЖИДКИЕ ЧЕХЛЫ С БЛЕСТКАМИ",
-      "image": "https://case-place.ru/core/assets/thumbnails/45/45df2bdab5875f8f0602a1e344e1f15b.png.webp"
+      "image": "https://case-place.ru/upload/thumb/thumbnails/fotoOtzivy/11-11-2021%2013-55-06j280_1200x0.jpg",
+      "user": "askar",
+      "text": "goode Понравился. Красивый. Еще на прочность не смотрела ,купила на запас"
     },
     {
       "id": 6,
-      "title": "МАТОВЫЕ СИЛИКОНОВЫЕ ЧЕХЛЫ",
-      "image": "https://case-place.ru/core/assets/thumbnails/07/070ed2266b8f319dcd0c41c1724c2a9a.png.webp"
+      "image": "https://case-place.ru/upload/thumb/thumbnails/fotoOtzivy/11-11-2021%2013-52-41j666_1200x0.jpg",
+      "user": "askar",
+      "text": "goode Понравился. Красивый. Еще на прочность не смотрела ,купила на запас"
     },
     {
       "id": 7,
-      "title": "ПРОТИВОУДАРНЫЕ ЧЕХЛЫ",
-      "image": "https://case-place.ru/core/assets/thumbnails/5b/5b45d1663cd46d57d9340a10be9620cc.png.webp"
+      "image": "https://case-place.ru/upload/thumb/thumbnails/fotoOtzivy/11-11-2021%2013-52-41j666_1200x0.jpg",
+      "user": "askar",
+      "text": "goode Понравился. Красивый. Еще на прочность не смотрела ,купила на запас"
     },
     {
       "id": 8,
-      "title": "ЖИДКИЕ НЕОНОВЫЕ ЧЕХЛЫ",
-      "image": "https://case-place.ru/core/assets/thumbnails/50/50aad0c6ca99b259ceae2b87aeac133c.png.webp"
+      "image": "https://case-place.ru/upload/thumb/thumbnails/fotoOtzivy/11-11-2021%2013-52-41j666_1200x0.jpg",
+      "user": "askar",
+      "text": "goode Понравился. Красивый. Еще на прочность не смотрела ,купила на запас"
     },
     {
       "id": 9,
-      "title": "ЭКО\nЧЕХЛЫ",
-      "image": "https://case-place.ru/core/assets/thumbnails/cb/cbdfc7c2318e3648bc7f36019a858dea.png.webp"
+      "image": "https://case-place.ru/upload/thumb/thumbnails/fotoOtzivy/11-11-2021%2013-52-41j666_1200x0.jpg",
+      "user": "askar",
+      "text": "goode Понравился. Красивый. Еще на прочность не смотрела ,купила на запас"
+    },
+    {
+      "user": "Askar",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9cppUYn9f2Aa8hTYBFjCRHqnMuDXTjy2THw&usqp=CAU",
+      "text": "очень крутой  магазин советую всем",
+      "id": 15,
+      "price": null
+    },
+    {
+      "user": "Tima",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzOgCcr5OWlLTdCPepOM8g85TeFw3APTknIQ&usqp=CAU",
+      "text": "gooodfasdfasdfasdfasdfasdfasdfasdf",
+      "id": 16
+    },
+    {
+      "user": "Askar",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9cppUYn9f2Aa8hTYBFjCRHqnMuDXTjy2THw&usqp=CAU",
+      "text": "alfd;skalks;dkf;ksadflsl;akdf;l",
+      "id": 17
+    }
+  ],
+  "advertising": [
+    "https://case-place.ru/upload/materials/Lovely.jpg",
+    "https://case-place.ru/upload/materials/Tablet_desktop.jpg",
+    "https://case-place.ru/upload/materials/Lovely.jpg",
+    "https://case-place.ru/upload/materials/delivery-2500_70_per.jpg",
+    "https://case-place.ru/upload/materials/e11255d81ba97fead5ec2ff7272a0361.png"
+  ],
+  "allVideo": [
+    "https://www.youtube.com/embed/qA5ZZssUXcY",
+    "\"https://www.youtube.com/embed/qA5ZZssUXcY\"",
+    "\"https://www.youtube.com/embed/qA5ZZssUXcY\"",
+    "\"https://www.youtube.com/embed/qA5ZZssUXcY\""
+  ],
+  "orders": [
+    {
+      "name": "Askar",
+      "surname": "Rahman",
+      "email": "askar@mail.ru",
+      "phone": "+996(999)99-99-99",
+      "address": "orozova 272",
+      "pay": "card",
+      "data": [
+        {
+          "id": 5,
+          "brand": "Apple",
+          "title": "iPhone X",
+          "description": "Силиконовый чехол без принта на iPhone X (10)",
+          "count": 0,
+          "price": 300,
+          "category": "чехлы",
+          "subCategory": "СИЛИКОНОВЫЕ ЧЕХЛЫ",
+          "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/2f/2f68b10ef45ba8c2db5c4c2ada5ed056.png.webp",
+          "image": [
+            "https://case-place.ru/upload/thumbnails/small/11050-9V16870.jpg",
+            "https://case-place.ru/upload/thumbnails/small/11050-9V000.jpg",
+            "https://case-place.ru/upload/thumbnails/small/th_sst-110f (1).png"
+          ]
+        },
+        {
+          "id": 6,
+          "brand": "Apple",
+          "title": "iPhone X",
+          "description": "Силиконовый чехол без принта на iPhone X (10)",
+          "count": 0,
+          "price": 450,
+          "category": "чехлы",
+          "subCategory": "СИЛИКОНОВЫЕ ЧЕХЛЫ",
+          "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/2f/2f68b10ef45ba8c2db5c4c2ada5ed056.png.webp",
+          "image": [
+            "https://case-place.ru/upload/thumbnails/small/th_sst-110f (1).png",
+            "https://case-place.ru/upload/thumbnails/small/11050-9V000.jpg",
+            "https://case-place.ru/upload/thumbnails/small/11050-9V000.jpg"
+          ]
+        }
+      ],
+      "allPrice": 0,
+      "id": 1
+    },
+    {
+      "name": "Askar",
+      "surname": "Rahman",
+      "email": "askar@mail.ru",
+      "phone": "+996(999)99-99-99",
+      "address": "orozova 272",
+      "pay": "card",
+      "data": [
+        {
+          "id": 5,
+          "brand": "Apple",
+          "title": "iPhone X",
+          "description": "Силиконовый чехол без принта на iPhone X (10)",
+          "count": 0,
+          "price": 300,
+          "category": "чехлы",
+          "subCategory": "СИЛИКОНОВЫЕ ЧЕХЛЫ",
+          "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/2f/2f68b10ef45ba8c2db5c4c2ada5ed056.png.webp",
+          "image": [
+            "https://case-place.ru/upload/thumbnails/small/11050-9V16870.jpg",
+            "https://case-place.ru/upload/thumbnails/small/11050-9V000.jpg",
+            "https://case-place.ru/upload/thumbnails/small/th_sst-110f (1).png"
+          ]
+        },
+        {
+          "id": 6,
+          "brand": "Apple",
+          "title": "iPhone X",
+          "description": "Силиконовый чехол без принта на iPhone X (10)",
+          "count": 0,
+          "price": 450,
+          "category": "чехлы",
+          "subCategory": "СИЛИКОНОВЫЕ ЧЕХЛЫ",
+          "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/2f/2f68b10ef45ba8c2db5c4c2ada5ed056.png.webp",
+          "image": [
+            "https://case-place.ru/upload/thumbnails/small/th_sst-110f (1).png",
+            "https://case-place.ru/upload/thumbnails/small/11050-9V000.jpg",
+            "https://case-place.ru/upload/thumbnails/small/11050-9V000.jpg"
+          ]
+        }
+      ],
+      "allPrice": 0,
+      "id": 2
+    },
+    {
+      "name": "Askar",
+      "surname": "wfwefawef",
+      "email": "wefawe@mail.ru",
+      "phone": "+996(888)88-88-88",
+      "address": "fasdfasdf",
+      "pay": "card",
+      "data": [
+        {
+          "id": 5,
+          "brand": "Apple",
+          "title": "iPhone X",
+          "description": "Силиконовый чехол без принта на iPhone X (10)",
+          "count": 0,
+          "price": 300,
+          "category": "чехлы",
+          "subCategory": "СИЛИКОНОВЫЕ ЧЕХЛЫ",
+          "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/2f/2f68b10ef45ba8c2db5c4c2ada5ed056.png.webp",
+          "image": [
+            "https://case-place.ru/upload/thumbnails/small/11050-9V16870.jpg",
+            "https://case-place.ru/upload/thumbnails/small/11050-9V000.jpg",
+            "https://case-place.ru/upload/thumbnails/small/th_sst-110f (1).png"
+          ]
+        },
+        {
+          "id": 6,
+          "brand": "Apple",
+          "title": "iPhone X",
+          "description": "Силиконовый чехол без принта на iPhone X (10)",
+          "count": 0,
+          "price": 450,
+          "category": "чехлы",
+          "subCategory": "СИЛИКОНОВЫЕ ЧЕХЛЫ",
+          "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/2f/2f68b10ef45ba8c2db5c4c2ada5ed056.png.webp",
+          "image": [
+            "https://case-place.ru/upload/thumbnails/small/th_sst-110f (1).png",
+            "https://case-place.ru/upload/thumbnails/small/11050-9V000.jpg",
+            "https://case-place.ru/upload/thumbnails/small/11050-9V000.jpg"
+          ]
+        }
+      ],
+      "allPrice": 0,
+      "id": 3
+    },
+    {
+      "name": "оалыф",
+      "surname": "афыва",
+      "email": "afasdf@mail.ru",
+      "phone": "+996(999)99-99-99",
+      "address": "asfdsadfasfd",
+      "pay": "cash",
+      "data": [
+        {
+          "id": 12,
+          "brand": "Apple",
+          "title": "iPhone 12",
+          "description": "Силиконовый чехол Звездная ночь над Роной на iPhone 12",
+          "count": 3,
+          "price": 550,
+          "category": "чехлы",
+          "subCategory": "ЧЕХЛЫ PREMIUM",
+          "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/2f/2f68b10ef45ba8c2db5c4c2ada5ed056.png.webp",
+          "image": [
+            "https://case-place.ru/upload/thumbnails/small/0446d6d0378bd11ca220135b2c2ac360.jpg",
+            "https://case-place.ru/upload/thumbnails/small/8eaae7269ab40f0b07a8f76b1e8bdad4.jpg",
+            "https://case-place.ru/upload/thumbnails/small/8c934403e3a79211c074068700e28929.jpg"
+          ]
+        },
+        {
+          "id": 40,
+          "brand": "Apple",
+          "title": "iPhone 13 Pro Max",
+          "description": "Силиконовый чехол Окрас леопарда фон на iPhone 13 Pro Max",
+          "count": 9,
+          "price": 300,
+          "category": "чехлы",
+          "subCategory": "ЧЕХЛЫ КНИЖКИ",
+          "subCategoryImg": "https://case-place.ru/core/assets/thumbnails/07/070ed2266b8f319dcd0c41c1724c2a9a.png.webp",
+          "image": [
+            "https://case-place.ru/upload/thumbnails/small/6ea6c4af51d8e40bb28f5a7ff686f344.jpg",
+            "https://case-place.ru/upload/thumbnails/small/th_653669563832028370402.png",
+            "https://case-place.ru/upload/thumbnails/small/cb2de64861db9ebdbe01712a297ced65.jpg"
+          ]
+        }
+      ],
+      "allPrice": 4350,
+      "id": 4
     }
   ]
 }

@@ -3,28 +3,28 @@ import axios from "../../utils/axios";
 
 export const getProducts = createAsyncThunk(
     'products/getProducts',
-    async (filter,{rejectWithValue}) => {
+    async (filter, {rejectWithValue}) => {
         try {
 
-            const queryParam = `${filter.brand ? `brand=${filter.brand}&` : ''}${filter.limit ? `limit=${filter.limit}&`: '' }${filter.subCategory ? `subCategory=${filter.subCategory}&`: ''}${filter.title ? `title=${filter.title}&` : ''}`
-            const res = await axios(`/products?${queryParam}`)
-            if(res.statusText !== 'OK'){
+            const queryParam = `${filter.brand ? `brand=${filter.brand}&` : ''}${filter.limit ? `limit=${filter.limit}&` : ''}${filter.subCategory ? `subCategory=${filter.subCategory}&` : ''}${filter.title ? `title=${filter.title}&` : ''}`
+            const res = await axios(`/products?${queryParam}?not=${filter.title}&search=${filter.search}`)
+            if (res.statusText !== 'OK') {
                 throw new Error(' server error')
             }
-            console.log(res.data)
             return res.data
-        } catch (e){
+        } catch (e) {
             return rejectWithValue(e.message)
         }
-}
+    }
 )
 const initialState = {
     data: [],
     filter: {
-        brand:'',
+        brand: 'Apple',
         limit: 10,
-        title:'',
-        subCategory:''
+        title: '',
+        subCategory: '',
+        search: ''
     },
     error: '',
     status: ''
@@ -52,25 +52,32 @@ const productsSlice = createSlice({
                 ...state.filter,
                 title: action.payload
             }
+        }, productsClear: (state, action) => {
+            state.filter = {subCategory: '', title: ''}
+        },
+        changeSearch: (state, action) => {
+            state.filter = {
+                ...state.filter,
+                search: action.payload
+            }
         }
-
 
     },
     extraReducers: {
-       [getProducts.pending] : (state, action) => {
+        [getProducts.pending]: (state, action) => {
             state.status = 'loading'
-           state.error = ''
-       },
-        [getProducts.rejected] : (state, action) => {
+            state.error = ''
+        },
+        [getProducts.rejected]: (state, action) => {
             state.status = 'error'
             state.error = action.payload
-       },
-        [getProducts.fulfilled] : (state, action) => {
+        },
+        [getProducts.fulfilled]: (state, action) => {
             state.status = 'Done'
             state.data = action.payload
-       }
+        }
     }
 })
 
-export const {changeBrand, changeSubCategory} = productsSlice.actions
+export const {changeBrand, changeSearch, changeSubCategory, changeTitle, productsClear} = productsSlice.actions
 export default productsSlice.reducer

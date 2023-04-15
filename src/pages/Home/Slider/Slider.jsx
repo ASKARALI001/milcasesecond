@@ -1,12 +1,32 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import {Swiper, SwiperSlide} from "swiper/react";
 import {Autoplay} from "swiper";
 import "swiper/css";
 import "swiper/css/navigation";
 import {Navigation} from "swiper";
+import { Pagination } from "swiper";
+import "swiper/css/pagination";
+import {useNavigate} from "react-router-dom";
+import axios from "../../../utils/axios";
 
 const Slider = () => {
 
+
+    const [advertising, setAdvertising] = useState([])
+
+    useEffect(() => {
+        axios('/advertising')
+            .then(({data}) => setAdvertising(data))
+            .catch((err) => console.log(err))
+    },[])
+
+    const pagination = {
+        clickable: true,
+        renderBullet: function (index, className) {
+            return '<span class="' + className + '">' + "</span>";
+        }
+    };
+    const navigate = useNavigate()
 
     return (
         <section className="slider">
@@ -16,35 +36,19 @@ const Slider = () => {
                     delay : 3000
                 }}
                 loop={true}
-                modules={[Autoplay,Navigation]}
+                pagination={pagination}
+                modules={[Autoplay,Navigation,Pagination]}
                 navigation={true}
                 className="mySwiper">
-                <SwiperSlide>
-                        <img className='slider__img' src="https://case-place.ru/upload/materials/Lovely.jpg" alt=""/>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div className="slider__image">
-                        <img className='slider__img'
-                             src="https://case-place.ru/upload/materials/e11255d81ba97fead5ec2ff7272a0361.png" alt=""/>
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div className="slider__image">
-                        <img className='slider__img' src="https://case-place.ru/upload/materials/Tablet_desktop.jpg"
-                             alt=""/>
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div className="slider__image">
-                        <img className='slider__img'
-                             src="https://case-place.ru/upload/materials/delivery-2500_70_per.jpg" alt=""/>
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div className="slider__image">
-                        <img className='slider__img' src="https://case-place.ru/upload/materials/Lovely.jpg" alt=""/>
-                    </div>
-                </SwiperSlide>
+                {
+                    advertising.map((item) => (
+                        <SwiperSlide key={item.id}>
+                            <img className='slider__img' src={item} alt=""/>
+                            <button onClick={() => navigate('allPhone')} className='slider__btn'>Выбери свою модель</button>
+                        </SwiperSlide>
+                    ))
+                }
+
 
             </Swiper>
 

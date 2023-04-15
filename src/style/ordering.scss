@@ -1,0 +1,61 @@
+.ordering{
+ &__form{
+  width: 500px;
+  padding: 40px 0;
+  row-gap: 20px;
+  display: flex;
+  flex-direction: column;
+  &-field{
+   padding: 15px 10px;
+   border-radius: 10px;
+   outline: none;
+   border: none;
+   width: 100%;
+   box-shadow: 0 4px 41px rgba(0, 0, 0, 0.20);
+  }
+  &-btn{
+   padding: 15px 19px;
+   background: #767ab9;
+   border: 1px solid #FFFFFF;
+   cursor: pointer;
+   font-weight: 800;
+   font-size: 16px;
+   text-transform: uppercase;
+   color: #EAE9E8;
+   &:hover{
+    background: #FFFFFF;
+    color: #767ab9;
+    transition: .3s;
+    border: 1px solid #767ab9;
+   }
+
+  }
+ }
+ &__deli{
+   display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+  &-title{
+   @include text(600, 18px, 150%, #767ab9);
+  }
+  &-area{
+   border: none;
+   outline: none;
+   resize: none;
+  }
+  &-red{
+   @include text(400, 14px, 150%, #767);
+   cursor: pointer;
+  }
+ }
+ &__pay{
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+  &-label{
+   @include text(400, 12px, 150%, #767);
+   cursor: pointer;
+  }
+ }
+
+}

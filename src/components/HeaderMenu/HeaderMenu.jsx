@@ -4,10 +4,12 @@ import SelectBrand from "./SelectBrand";
 import {useDispatch, useSelector} from "react-redux";
 import {changeBrand, getProducts} from "../../redux/reducers/products";
 import MenuItem from "@mui/material/MenuItem";
+import {getFavorite} from "../../redux/reducers/addFavorite";
+import Breadcrumbs from "../Breadcrumbs/Breadcrumbs";
 
 
 
-const brands = ['apple', 'samsung', 'xiaomi', 'honor', 'huawei']
+const brands = ['Apple', 'Samsung', 'Xiaomi', 'Honor', 'Huawei']
 
 
 const HeaderMenu = () => {
@@ -30,6 +32,7 @@ const HeaderMenu = () => {
 
     useEffect(() => {
         dispatch(getProducts(filter))
+        dispatch(getFavorite())
     },[filter.brand])
 
     return (
@@ -40,14 +43,12 @@ const HeaderMenu = () => {
                         <ul className="header__subMenu-list">
                             {
                                 brands.map((item) => (
-                                <li key={item.id} onClick={() => handleChange(item)} className={`header__subMenu-item ${filter.brand === item ? 'active' : ''}`} ><Link className='header__menu-link' to={'/allPhone'}>{item}</Link>
-                                </li>
+                                <li key={item.id} onClick={() => {
+                                    handleChange(item)
+                                    navigate('/allPhone')
+                                }} className={`header__subMenu-item ${filter.brand === item ? 'active' : ''}`} >{item}</li>
                                 ))
                             }
-                            {/*<li className="header__subMenu-item"><Link className='header__subMenu-link' to={'/go'}>Apple</Link></li>*/}
-                            {/*<li className="header__subMenu-item"><Link className='header__subMenu-link' to={'/go'}>Xiaomi</Link></li>*/}
-                            {/*<li className="header__subMenu-item"><Link className='header__subMenu-link' to={'/go'}>Samsung</Link></li>*/}
-                            {/*<li className="header__subMenu-item"><Link className='header__subMenu-link' to={'/go'}>Honor и Huawei</Link></li>*/}
                         </ul>
                     </li>
                     {/*<SelectBrand/>*/}

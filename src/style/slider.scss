@@ -1,7 +1,37 @@
 .slider{
 background: #f1f1f1;
+  position: relative;
+  &__btn{
+    position: absolute;
+    bottom: 100px;
+    left: 25%;
+    border: 2px solid #767ab9;
+    box-shadow: rgba(135, 165, 191, 0.48) 10px 5px 20px 4px, rgba(255, 255, 255, 0.8) -10px -5px 20px 4px;
+    border-radius: 30px;
+    font-size: 24px;
+    color: #FFFFFF;
+    background: #767ab9;
+    padding: 10px 15px;
+    cursor: pointer;
+    z-index: 10;
+    &:hover{
+      border: 2px solid #767ab9;
+      background: #FFFFFF;
+      color: #767ab9;
+      transition: .3s;
+
+    }
+
+
+  }
 }
+
 .swiper-button-prev, .swiper-button-next{
-  color: white;
+  color: #767ab9 !important;
   font-weight: bold;
+}
+.swiper-pagination-bullet{
+  background: #767ab9 !important;
+  padding: 8px;
+  border: 1px solid #FFFFFF;
 }
